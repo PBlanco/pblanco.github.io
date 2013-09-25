@@ -1,4 +1,3 @@
-pblanco.github.io
+Peter Blanco's Website
 =================
-
-My Website
+Dis my website yo!
