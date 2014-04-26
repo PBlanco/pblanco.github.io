@@ -62,59 +62,9 @@ footer p {
     margin-bottom: 10px;
 }
 
-.half-width h4 {
-    margin-bottom: 5px;
-}
 
-.half-width ul {
-    padding-left: 0;
-}
-
-.half-width ul li {
-    list-style: inside;
-    font-size: 15px;
-}
-
-.clear-fix {
-    clear: both;
-}
-/* selection */html.clearly_highlighting_enabled ::-moz-selection {
-    background: rgba(246, 238, 150, 0.99);
-}
-
-html.clearly_highlighting_enabled ::selection {
-    background: rgba(246, 238, 150, 0.99);
-} /* cursor */html.clearly_highlighting_enabled {
-    /* cursor and hot-spot position -- requires a default cursor, after the URL one */
-    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text;
-} /* highlight tag */em.clearly_highlight_element {
-    font-style: inherit !important;
-    font-weight: inherit !important;
-    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");
-    background-repeat: repeat-x;
-    background-position: top left;
-    background-size: 100% 100%;
-} /* the delete-buttons are positioned relative to this */em.clearly_highlight_element.clearly_highlight_first {
-    position: relative;
-} /* delete buttons */em.clearly_highlight_element a.clearly_highlight_delete_element {
-    display: none;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-    position: absolute;
-    width: 34px;
-    height: 34px;
-    left: -17px;
-    top: -17px;
-    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-}
-
-em.clearly_highlight_element a.clearly_highlight_delete_element:hover {
-    background-position: -34px 0px;
-} /* retina */@media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+/* retina */
+@media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
     em.clearly_highlight_element {
         background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png");
     }
@@ -141,4 +91,19 @@ em.clearly_highlight_element a.clearly_highlight_delete_element:hover {
 [touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"] {
     -ms-touch-action: pan-x pan-y;
     touch-action: pan-x pan-y;
+}
+
+/*Project box stuff*/
+.projectbox{
+    border: 1px solid #95a5a6;
+    max-width: 496px;
+    background: #E9E9E9;
+}
+
+.p-title{
+    text-align:center;
+    
+}
+.pimage-container {
+    margin: 10px 10px 10px 10px;
 }

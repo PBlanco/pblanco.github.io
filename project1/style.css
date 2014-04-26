@@ -1,0 +1,41 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  svg { 
+    border: solid black 1px; 
+  }
+  div{
+    text-align:center;
+  }
+  .axis path { fill: none; stroke: black;}
+  .axis line {stroke :black;}
+  .areaMale { 
+    fill:#3498db;
+  }
+  .areaFemale{
+    fill:#c0392b;
+  }
+  .male{
+    fill:none;
+    stroke: #3498db;
+  }
+  .female {
+    fill:none;
+    stroke:#c0392b;
+  }
+
+  #legend{
+    border:2px solid #a1a1a1;
+    padding:10px 40px; 
+    background:#dddddd;
+    width:150px;
+    margin: 0 auto;
+  }
+  #table_Legend{
+    margin: 0 auto;
+    text-align: left;
+  }

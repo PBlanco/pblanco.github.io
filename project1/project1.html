@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <meta charset="UTF-8">
+  <title>Project 1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="title">
+    <h1>Cornell Engineering Students Enrollment</h1>
+    <h3>By Peter Blanco, Lily Gao, and Xinyi Wang</h3>
+    <h4>CS 3300 - Project 1 - March 2, 2014</h2>
+  </div>
+  <div id="legend">
+    <table id = "table_Legend">
+      <tr>
+        <td>
+          <svg height="10" width="10">
+            <rect width="10" height="10" style="fill:#3498db"/>  
+          </svg>
+        </td>
+        <td>Male Students</td>
+      </tr>
+      <tr>
+        <td>
+          <svg height="10" width="10">
+            <rect width="10" height="10" style="fill:#c0392b"/>  
+          </svg>
+        </td>
+        <td>Female Students</td>
+      </tr>
+    </table>
+  </div>
+  
+
+
+  <script>
+  var margin = {top: 20, right: 20, bottom: 40, left: 50},
+    width = 480 - margin.left - margin.right,
+    height = 250 - margin.top - margin.bottom;
+
+  
+  var yScale, xScale;
+  var majors;
+      
+  d3.json("majors.json", function (data) { 
+    majors = data;
+
+    majors.forEach(function (mjr, i){
+
+    //Set area up for svg
+    var div = d3.select("body").append('div');
+    var header = div.append('h4').text(mjr.major);
+    var svg = div.append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("align", "center");
+    
+
+    //Convert objects to usable data
+    var maleData = [];
+    var femaleData = [];
+    var dates = [];
+
+    mjr.count.forEach(function (m,i) {
+      maleData[i] = m.male;
+      femaleData[i]= m.female;
+      dates[i] = (m.sem + " " + m.year);
+      });
+      
+
+      //Scales
+      yScale = d3.scale.linear()
+        .domain([0, d3.max(mjr.count, function(s){ return Math.max(s.female, s.male); })])
+        .range([height,margin.top]);
+
+      xScale = d3.scale.ordinal()
+        .domain(dates)
+        .rangePoints([margin.left, width]);
+
+      //Axis
+      var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+      var yAxis = d3.svg.axis().scale(yScale).orient("left").ticks(5);
+
+      svg.append('g').call(yAxis)
+        .attr('class', 'axis')
+        .attr("transform", "translate( 50, 0)")
+        .call(yAxis);
+
+      svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+        .selectAll("text")  
+            .style("text-anchor", "end")
+            .style("font-size", "12")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
+
+      svg.append("text")
+        .attr("x",10)
+        .attr("y",10)
+        .style("font-size","10px")
+        .text("Enrollment")
+        .attr("transform", "translate(0,150)rotate(270)");
+
+      //Line function
+      var line = d3.svg.line()
+        .x(function (x, i){return xScale(dates[i]);})
+        .y(function (y){return yScale(y);});
+
+      //Append the lines for male and female data
+      svg.append('path').attr('d', line(maleData))
+        .attr('class', 'male');
+      svg.append('path').attr('d', line(femaleData))
+        .attr('class', 'female');
+
+      //Append circles for the lines
+      svg.selectAll('circle1').data(maleData).enter().append('circle')
+        .attr('cx', function (d, i) {return xScale(dates[i]);})
+        .attr('cy', function (d) {return yScale(d);})
+        .attr('r', 2)
+        .attr('fill','#3498db');
+
+      svg.selectAll('circle2').data(femaleData).enter().append('circle')
+        .attr('cx', function (d, i) {return xScale(dates[i]);})
+        .attr('cy', function (d) {return yScale(d);})
+        .attr('r', 2)
+        .attr('fill','#c0392b');
+
+    });
+  });
+
+  
+
+
+  </script>
+
+
+  
+</body>
+</html>
