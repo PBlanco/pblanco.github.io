@@ -108,3 +108,13 @@ footer p {
 .pimage-container {
     margin: 10px 10px 10px 10px;
 }
+
+.pimage-container img {
+    display: block;
+    margin: auto;
+}
+
+.secondary-header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
