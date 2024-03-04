@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.node {
+    @apply max-w-sm mx-auto p-6 m-4 shadow-md bg-gun-powder-100 rounded-lg flex flex-col items-start min-w-56;
+}
+
+.edge {
+    @apply w-0.5 h-5 bg-gun-powder-800;
+}
