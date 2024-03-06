@@ -20,7 +20,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        body: ["Nunito"],
+        mono: ["IBM Plex Mono"],
       },
     },
   },
