@@ -6,7 +6,7 @@
   "scripts": {
     "build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
     "watch-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
-    "server": "live-server public"
+    "server": "live-server ."
   },
   "author": "Peter Blanco",
   "license": "ISC",
