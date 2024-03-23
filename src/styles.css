@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .node {
-    @apply max-w-sm mx-auto p-6 m-4 shadow-md bg-gun-powder-100 rounded-lg flex flex-col items-start min-w-56;
+    @apply max-w-sm mx-auto p-6 m-4 shadow-md bg-gun-powder-100 rounded-lg flex flex-col items-start w-96;
 }
 
 .edge {
