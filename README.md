@@ -1,3 +1,5 @@
 Peter Blanco's Website
-=================
-This is the repo for my website. The site template is scraped from http://www.atmos.org/. 
+
+To get started developing
+1. `npm run server` to see live rendered site
+2. `npm run watch-css` to re-compile tailwind css while working
