@@ -43,7 +43,7 @@ main a:hover {
   position: fixed;
   top: 0;
   right: 0;
-  width: 130px; 
+  width: 150px; 
   height: 100vh;
   padding: 40px 20px;
   box-sizing: border-box; /* Include padding in width calculation */
