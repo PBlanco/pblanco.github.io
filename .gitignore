@@ -43,3 +43,6 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# Jekyll drafts
+_drafts
