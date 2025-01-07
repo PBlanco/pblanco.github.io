@@ -1,5 +1,11 @@
-# Trip to Acadia (Mount Desert Island)  
-*From July 2020*  
+---
+layout: post
+title:  "Trip to Acadia (Mount Desert Island)"
+date:   2020-07-01 00:00:00 -0500
+---
+**tl;dr An old guide to Acadia National Park on Mount Desert Island, Maine.**
+
+![Acadia view from hike](/assets/images/acadia-web.jpeg){: width="90%"}
 
 ## Travel Up from New York City  
 - **Lunch in Portland, Maine**: Stop at *Duckfat* for incredible poutine.  
