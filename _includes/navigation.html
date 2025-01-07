@@ -1,6 +1,10 @@
 <nav class="right-nav">
   <ul>
-    <li class="nav-header">Peter Blanco</li>
+    <li class="nav-header"> 
+      <a href="/">
+          Peter Blanco
+        </a>
+      </li>
     {% for item in site.data.navigation %}
       <li>
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>

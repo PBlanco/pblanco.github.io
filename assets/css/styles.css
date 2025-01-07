@@ -57,25 +57,27 @@ main a:hover {
 }
 
 .right-nav li {
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   text-align: right;
   font-weight: 400;
   letter-spacing: 0.5px;
+  font-size: 1.1em;
 }
 
 .right-nav a {
   display: block;
-  color: #333;
+  color: #219ebc;
   text-decoration: none;
+  /* font-weight: 500; */
 }
 
 .right-nav a:hover {
-  color: #219ebc;
+  color: #1a7b94;
   text-decoration: underline;
 }
 
 .right-nav a.current {
-  color: #219ebc;
+  color: #1a7b94;
   font-weight: 600;
 }
 
@@ -96,18 +98,40 @@ main a:hover {
     height: auto;
     padding: 20px;
     margin-top: 0;
-    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
   }
 
   .right-nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;  /* Use gap for more consistent spacing */
   }
 
   .right-nav li {
-    margin: 0 10px 10px;
+    margin: 0;  /* Remove margin since we're using gap */
     text-align: center;
+    font-size: 0.95em;
+  }
+
+  .nav-header {
+    font-size: 1em;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+    text-align: center;
+    border-bottom: none;
+    color: #219ebc;
+  }
+
+  .right-nav a {
+    color: #219ebc;
+    font-weight: 500;
+  }
+
+  .right-nav a.current {
+    color: #1a7b94;
+    font-weight: 600;
   }
 
   main {
@@ -120,6 +144,14 @@ main a:hover {
   .container {
     width: 100%;
     overflow-x: hidden;
+  }
+
+  .nav-header {
+    font-size: 1.1em;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: none;
   }
 }
 
@@ -179,8 +211,18 @@ tr:hover {
 }
 
 .nav-header {
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  color: #219ebc;
+  letter-spacing: 0.8px;
+  border-bottom: 2px solid rgba(33, 158, 188, 0.3);
+  padding-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+.nav-header:hover {
+  color: #1a7b94;
 }
 
 @media (min-width: 769px) {
@@ -189,7 +231,6 @@ tr:hover {
   }
 
   .right-nav {
-    width: 130px;
     margin-left: 20px;
   }
 }

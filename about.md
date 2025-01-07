@@ -1,28 +1,15 @@
 ---
 layout: default
-title: About Peter Blanco
+title: About Peter
 ---
 
-# About Peter Blanco
+# About Me 
 
 ![Peter Blanco](/assets/profile_400x400.jpg){: width="150" height="150"}
 
 ## Welcome!
 
-I'm Peter Blanco, a passionate Product Manager with a diverse background in tech. I thrive on solving complex data challenges and building products that make a difference. With a foundation in Computer Science from Cornell University, I bring a unique blend of technical expertise and business acumen to every project.
-
-## Professional Background
-
-Currently, I'm a Senior Product Manager at [ActionIQ](https://actioniq.com), where I leverage my experience in Solutions Engineering and Full Stack Software Engineering to drive product innovation. My journey has taken me from early-stage startups to rapidly growing companies, giving me a comprehensive understanding of the tech industry landscape.
-
-## Skills
-
-- Product Management
-- Solutions Engineering
-- Full Stack Development
-- Data Analysis
-- Strategic Planning
-- Team Leadership
+I’m a Senior Product Manager at [ActionIQ](https://actioniq.com) (acquired by [Uniphore](https://uniphore.com)), using my background in Solutions Engineering and Full Stack Software Engineering to drive innovation. My experience spans early-stage startups to high-growth companies, giving me a broad perspective on the tech industry.
 
 ## Interests
 
@@ -30,7 +17,7 @@ Currently, I'm a Senior Product Manager at [ActionIQ](https://actioniq.com), whe
 - **Product Management**: I'm passionate about creating impactful products. You can often find me at NYC meetups like [Data Driven NYC](https://www.meetup.com/NYC-Data-Business-Meetup/), staying updated on the latest in Product, AI, and Big Data.
 
 ### Hobbies
-- **Running**: An avid runner since 2015, I completed my first half marathon in 2019 and am training for a full marathon after overcoming a challenging injury in 2023.
+- **Running**: An avid runner since 2015, I completed my first half marathon in 2019 and am currently training for the [2025 United Airlines NYC Half Marathon](https://www.nyrr.org/races/2025unitedairlinesnychalf), overcoming a challenging injury in 2023.
 - **Poker**: I've been honing my poker skills since 2023, fascinated by the game's strategy and psychology. Recommended reads: "Phil Gordon's Little Green Book", "The Theory of Poker", and "The Biggest Bluff".
 
 ### Continuous Learning
@@ -40,16 +27,14 @@ Currently, I'm a Senior Product Manager at [ActionIQ](https://actioniq.com), whe
 ## Entrepreneurial Journey
 
 Throughout my career, I've experienced various stages of company growth:
-- [RosieApp](https://www.rosieapp.com): Part of the founding team, building the initial MVP.
-- [Synconset](https://www.synconset.com): Contributed to new product offerings and team expansion.
-- [ActionIQ](https://www.actioniq.com): Involved in deploying first few enterprise customers, expanding customer base by over 10x, and scaling from 40 to 200+ employees.
+- [RosieApp](https://www.rosieapp.com): Part of the founding team, building the initial MVP. Later Aquired by [Instacart](https://www.instacart.com).
+- [Synconset](https://www.synconset.com): Contributed to new product offerings and team expansion. Later aquired by [Entertainment Partners](https://www.ep.com).
+- [ActionIQ](https://www.actioniq.com): Involved in deploying first few enterprise customers, expanding customer base by over 10x, and scaling from 40 to 200+ employees. Acquired by [Uniphore](https://uniphore.com).
 
-My next goal is to start my own business. I'm actively seeking partners with unique experiences in fields untapped by technology.
+I am currently supporting the merger of ActionIQ and Uniphore while working on my own business. I'm actively seeking partners with unique experiences in fields different from my own.
 
 ## Connect With Me
 
 - [LinkedIn](https://www.linkedin.com/in/peterblanco)
 - [GitHub](https://github.com/pblanco)
 - [Twitter](https://twitter.com/blancotech)
-
-Are you interested in discussing potential ventures or sharing ideas? I'm always open to new opportunities and collaborations. Let's connect on LinkedIn and explore how we can create something amazing together!
