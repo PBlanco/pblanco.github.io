@@ -16,6 +16,6 @@ Latest project: [LowLow](https://lowlow.bot){:target="_blank" rel="noopener nore
 
 ## Find me on
 
-- [LinkedIn](https://www.linkedin.com/in/peterblanco){:target="_blank" rel="noopener noreferrer"}
-- [GitHub](https://github.com/pblanco){:target="_blank" rel="noopener noreferrer"}
-- [Twitter](https://twitter.com/blancotech){:target="_blank" rel="noopener noreferrer"}
+- [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}){:target="_blank" rel="noopener noreferrer"}
+- [GitHub](https://github.com/{{ site.github_username }}){:target="_blank" rel="noopener noreferrer"}
+- [Twitter](https://twitter.com/{{ site.twitter_username }}){:target="_blank" rel="noopener noreferrer"}
