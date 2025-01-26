@@ -2,8 +2,9 @@
 layout: post
 title:  "Trip to Acadia (Mount Desert Island)"
 date:   2020-07-01 00:00:00 -0500
+categories: travel-guides
 ---
-**tl;dr An old guide to Acadia National Park on Mount Desert Island, Maine.**
+*tl;dr An old guide to Acadia National Park on Mount Desert Island, Maine.*
 
 ![Acadia view from hike](/assets/images/acadia-web.jpeg){: width="90%"}
 
@@ -14,7 +15,7 @@ date:   2020-07-01 00:00:00 -0500
 ---
 
 ## Where to Stay  
-- **Short Trips**: Stay near Bar Harbor. It’s the main hub with restaurants and nightlife, and you can walk back after drinks.  
+- **Short Trips**: Stay near Bar Harbor. It's the main hub with restaurants and nightlife, and you can walk back after drinks.  
 - **Longer Trips**: Anywhere on the island works.  
   - We stayed near Southwest Harbor, which felt more authentically "Maine" with fewer crowds.  
   - Perks: Quiet area, fire pit, tasty lobster shack nearby, and close to Seawall Campground for scenic dinners.  
@@ -24,7 +25,7 @@ date:   2020-07-01 00:00:00 -0500
 ## Town Vibes  
 - **Bar Harbor**: Main tourist hub with lots of restaurants, nightlife, and close to major hikes (10-20 min drive).  
 - **Northeast Harbor**: Upscale vibe with fancy homes; feels like the Hamptons.  
-- **Southwest Harbor**: Quaint and quiet. Great if you want peace, but it’s 30-40 minutes from the main hikes.  
+- **Southwest Harbor**: Quaint and quiet. Great if you want peace, but it's 30-40 minutes from the main hikes.  
 
 ---
 
@@ -38,11 +39,11 @@ date:   2020-07-01 00:00:00 -0500
 4. **Gorham Mountain**  
    - Easier than Beehive but just as fun. Offers ocean views and optional adventurous cliff-side detours.  
 5. **Thunder Hole**  
-   - Dramatic rock formation with splashy waves. Timing is key; it wasn’t very loud when we visited.  
+   - Dramatic rock formation with splashy waves. Timing is key; it wasn't very loud when we visited.  
 6. **Bar Island Walk**  
-   - During low tide, walk across the sandbar to Bar Island. The island’s hike is average, but the sandbar experience is unique.  
+   - During low tide, walk across the sandbar to Bar Island. The island's hike is average, but the sandbar experience is unique.  
 7. **Jordan Pond + Bubbles**  
-   - Popular but crowded. Scenic views and a chance to try popovers at Jordan Pond House (if it’s not too busy).  
+   - Popular but crowded. Scenic views and a chance to try popovers at Jordan Pond House (if it's not too busy).  
 
 ---
 
@@ -52,9 +53,9 @@ date:   2020-07-01 00:00:00 -0500
 - **Eat-a-Pita**  
   - Great breakfast spot near Southwest Harbor with surprisingly top-notch service.  
 - **Café This Way**  
-  - Located in Bar Harbor. Don’t miss their breakfast if you’re hungry.  
+  - Located in Bar Harbor. Don't miss their breakfast if you're hungry.  
 - **The Reading Room**  
-  - A “fancier” spot in Bar Harbor. Decent food, NYC-level prices, and a romantic outdoor space overlooking the harbor.  
+  - A "fancier" spot in Bar Harbor. Decent food, NYC-level prices, and a romantic outdoor space overlooking the harbor.  
 - **Mt. Desert Island Ice Cream**  
   - Thick, dense ice cream that absolutely hits the spot.  
 
@@ -70,5 +71,5 @@ date:   2020-07-01 00:00:00 -0500
   - Challenging but exhilarating. Perfect for thrill-seekers!  
   - [Acadia Mountain Guides](http://acadiamountainguides.com/)  
 - **Sunset Sail**  
-  - Cheesy but worth it—the best sunset I’ve ever seen. Drinks on board make it even better.  
+  - Cheesy but worth it—the best sunset I've ever seen. Drinks on board make it even better.  
   - [Downeast Windjammer Sunset Sail](https://downeastwindjammer.com/activities/schooner-sunset-sail/)  

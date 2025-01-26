@@ -4,7 +4,7 @@ title:  "Cheap blogging with Jekyll"
 date:   2021-01-03 17:57:37 -0500
 ---
 
-**tl;dr How to host your blog using Jekyll and AWS Amplify**
+*tl;dr How to host your blog using Jekyll and AWS Amplify*
 
 The first thought you might have when you decide to make a blog is "wow I have a big ego". Your second thought might be "what do I have to write about".
 
