@@ -4,35 +4,18 @@ title: Home
 ---
 <span class="wave">👋</span> Hi, I'm <span style="font-weight: 600;">Peter Blanco</span>, a Product Manager focused on AI and Big Data.
 
-<style>
-.wave {
-  display: inline-block;
-  animation: wave 2s infinite;
-  animation-delay: 3s;
-}
-
-@keyframes wave {
-  0% { transform: rotate(0deg); }
-  20% { transform: rotate(30deg); }
-  40% { transform: rotate(0deg); }
-  60% { transform: rotate(30deg); }
-  80% { transform: rotate(0deg); }
-  100% { transform: rotate(0deg); }
-}
-</style>
-
 ![Peter Blanco](/assets/home.jpg){: width="100%" style="display: block; margin: 0 auto;"}
 
 ### Experience
 
-Currently a Senior Product Manager at [ActionIQ](https://actioniq.com) (now [Uniphore](https://uniphore.com)). Led product strategy for AI, Analytics, and Data Platforms across 7+ years, working with Fortune 500 clients.
+Currently a Senior Product Manager at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} (now [Uniphore](https://uniphore.com){:target="_blank" rel="noopener noreferrer"}). Led product strategy for AI, Analytics, and Data Platforms across 7+ years, working with Fortune 500 clients.
 
-Previously founded a grocery delivery startup (acquired by Instacart) and built Emmy-winning software for a Series A startup (acquired by Entertainment Partners).
+Previously founded a local grocery delivery startup [RosieApp](https://www.rosieapp.com){:target="_blank" rel="noopener noreferrer"} (later acquired by [Instacart](https://www.instacart.com){:target="_blank" rel="noopener noreferrer"}) and built Emmy-winning software for a Series A startup [SyncOnSet](https://www.synconset.com){:target="_blank" rel="noopener noreferrer"} (later acquired by [Entertainment Partners](https://www.ep.com){:target="_blank" rel="noopener noreferrer"}).
 
-Latest project: [LowLow](https://lowlow.bot) - a privacy-focused price tracking app.
+Latest project: [LowLow](https://lowlow.bot){:target="_blank" rel="noopener noreferrer"} - a privacy-focused price tracking app.
 
 ## Find me on
 
-- [LinkedIn](https://www.linkedin.com/in/peterblanco)
-- [GitHub](https://github.com/pblanco)
-- [Twitter](https://twitter.com/blancotech)
+- [LinkedIn](https://www.linkedin.com/in/peterblanco){:target="_blank" rel="noopener noreferrer"}
+- [GitHub](https://github.com/pblanco){:target="_blank" rel="noopener noreferrer"}
+- [Twitter](https://twitter.com/blancotech){:target="_blank" rel="noopener noreferrer"}

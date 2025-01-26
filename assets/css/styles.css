@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
   font-family: "Montserrat", "Helvetica Neue", Helvetica; 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body {
@@ -43,7 +43,7 @@ main a:hover {
   position: fixed;
   top: 0;
   right: 0;
-  width: 150px; 
+  width: 155px; 
   height: 100vh;
   padding: 40px 20px;
   box-sizing: border-box; /* Include padding in width calculation */
@@ -113,15 +113,6 @@ main a:hover {
     margin: 0;  /* Remove margin since we're using gap */
     text-align: center;
     font-size: 0.95em;
-  }
-
-  .nav-header {
-    font-size: 1em;
-    margin-bottom: 8px;
-    padding-bottom: 0;
-    text-align: center;
-    border-bottom: none;
-    color: #219ebc;
   }
 
   .right-nav a {
@@ -233,6 +224,53 @@ tr:hover {
   .right-nav {
     margin-left: 20px;
   }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+  animation-delay: 3s;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(30deg); }
+  40% { transform: rotate(0deg); }
+  60% { transform: rotate(30deg); }
+  80% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Blog Post List Styles */
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 2em;
+}
+
+.blog-list h2 {
+  margin: 0 0 0.3em 0;
+  font-size: 1.4em;
+}
+
+.blog-list h2 a {
+  color: #219ebc;
+  text-decoration: none;
+}
+
+.blog-list h2 a:hover {
+  color: #1a7b94;
+  text-decoration: underline;
+}
+
+.blog-list p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95em;
 }
 
 
