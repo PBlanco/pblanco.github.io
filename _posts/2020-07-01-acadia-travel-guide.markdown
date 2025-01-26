@@ -6,7 +6,7 @@ categories: travel-guides
 ---
 *tl;dr An old guide to Acadia National Park on Mount Desert Island, Maine.*
 
-![Acadia view from hike](/assets/images/acadia-web.jpeg){: width="90%"}
+![Scenic view of Acadia National Park's coastline and mountains from a hiking trail](/assets/images/acadia-web.jpeg){: width="90%"}
 
 ## Travel Up from New York City  
 - **Lunch in Portland, Maine**: Stop at *Duckfat* for incredible poutine.  

@@ -4,7 +4,7 @@ title: Home
 ---
 <span class="wave">👋</span> Hi, I'm <span style="font-weight: 600;">Peter Blanco</span>, a Product Manager focused on AI and Big Data.
 
-![Peter Blanco](/assets/home.jpg){: width="100%" style="display: block; margin: 0 auto;"}
+![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: width="100%" style="display: block; margin: 0 auto;"}
 
 ### Experience
 
