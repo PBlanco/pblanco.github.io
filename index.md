@@ -7,8 +7,9 @@ title: Home
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: width="100%" style="display: block; margin: 0 auto;"}
 
 ## Latest projects: 
-- **Feb 2025**: [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank" rel="noopener noreferrer"} - Format your HackerNews post with ease.
-- **Jan 2025**: [LowLow](https://lowlow.bot){:target="_blank" rel="noopener noreferrer"} - a privacy-focused price tracking app.
+- **March 2025**: 🔐 [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank" rel="noopener noreferrer"} - An open-source safe way to share files.
+- **Feb 2025**: 📰 [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank" rel="noopener noreferrer"} - Format your HackerNews post with ease.
+- **Jan 2025**: 🛒 [LowLow](https://lowlow.bot){:target="_blank" rel="noopener noreferrer"} - A privacy-focused price tracking app.
 
 ## Previously:
 1. 💡 **Senior Product Manager** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led product strategy for AI, Analytics, and Data Platforms for Fortune 500 clients. Aquired by [Uniphore](https://uniphore.com){:target="_blank" rel="noopener noreferrer"}.
