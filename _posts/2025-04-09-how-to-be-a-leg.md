@@ -5,15 +5,15 @@ date:   2025-04-09 11:00:00 -0400
 categories: satirical 
 ---
 
-The most effective way to be a great product manager is to just sound like one. Fortunately, that’s easier than actually doing the job.
+The most effective way to be a great product manager is to sound like one. This is easier than it sounds.
 
 Start by saying things like "strong opinions, loosely held." People will assume you're flexible and collaborative even if all evidence points otherwise. The key is simply delaying discovery. If you're good, you can stretch the illusion for several quarters.
 
-Next, repeatedly proclaim that you're "customer-obsessed." This phrase has a magical quality - it conjures the idea of Bezos, and everyone nods their heads in agreement. Say it in every meeting. Say it in the bathroom. Say it while holding a macchiato. If you're bold, leave an empty chair in meetings to symbolize the customer. Symbols scale. Customer interviews don't.
+Next, repeatedly proclaim that everyone needs to be more "customer-obsessed." This phrase has a magical quality - it conjures the idea of Bezos, and everyone nods their heads in agreement. Say it in every meeting. Say it in the bathroom. Say it while holding a macchiato. If you're bold, leave an empty chair in meetings to symbolize the customer. Symbols scale. Customer interviews don't.
 
 Eventually, people will notice you're not actually talking to customers nor building anything useful. But by then, you'll either be promoted or explaining your exit with words like "misalignment" and "execution challenges".
 
-If you made it this far, congrats. Now you can focus on your real job: becoming a thought leader. Post relentlessly. Share "insights", "north stars", and "experiments" you never actually ran. Talk about the "customer discovery", "zero to one", "PMF" for products you never actually build. Quote Marty Cagan. Quote Hiten Shah. Reference Lenny Rachitsky's podcast. Name drop *The Hard Thing About Hard Things*, *The Lean Startup*, and *The Innovator's Dilemma*. The goal isn't to build - it's to sound like someone who would... if the environment were right.
+If you made it this far, congrats. Now you can focus on your real job: becoming a thought leader. Post relentlessly. Share "insights", "north stars", and "experiments" you never actually ran. Talk about the "customer discovery", "zero to one", "PMF" for products you never actually build. Quote Marty Cagan. Quote Hiten Shah. Reference Lenny Rachitsky's podcast. Name drop *The Hard Thing About Hard Things*, *The Lean Startup*, and *The Innovator's Dilemma*. The goal isn't to build - it's to sound like someone who would.
 
 To level up, consume a firehose of content. Listen to venture capital podcasts on your commute, during meetings, and while you sleep. Learn about macro trends, interest rates, cap tables, valuation compression, and preference stacks. None of this helps you understand your customer. But you're not managing a product - you're managing the illusion of thinking strategically.
 
@@ -26,5 +26,5 @@ That's how you become a legendary SaaS Product Manager.
 
 ---
 
-*In case you missed this... this is satire aimed at the rise of performative “thought leadership” and its descent into self-parody. It’s not about one person, but rather a mix of my own actions and things I’ve seen or read over seven years in tech. Many product leaders are doing real, valuable work. But, If you feel called out, maybe it's time for some customer interviews? 😉*
+*This is satire. It combines a mix of my own actions and things I’ve seen or read over 7+ years in tech. Many product leaders are doing real, valuable work. If you feel called out, time to talk to customers?*
 
