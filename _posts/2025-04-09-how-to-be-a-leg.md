@@ -5,7 +5,7 @@ date:   2025-04-09 11:00:00 -0400
 categories: satirical 
 ---
 
-The most effective way to seem like a great product manager is to sound like one. Fortunately, that’s much easier than actually being one.
+The most effective way to be a great product manager is to just sound like one. Fortunately, that’s easier than actually doing the job.
 
 Start by saying things like "strong opinions, loosely held." People will assume you're flexible and collaborative even if all evidence points otherwise. The key is simply delaying discovery. If you're good, you can stretch the illusion for several quarters.
 
@@ -22,3 +22,9 @@ By now, you're probably the CPO. You've shipped nothing, but you've spoken at th
 You no longer build. You raise. You no longer listen. You brand. You're not here to create product. You're here to create myth.
 
 That's how you become a legendary SaaS Product Manager.
+
+
+---
+
+*In case you missed this... this is satire aimed at the rise of performative “thought leadership” and its descent into self-parody. It’s not about one person, but rather a mix of my own actions and things I’ve seen or read over seven years in tech. Many product leaders are doing real, valuable work. But, If you feel called out, maybe it's time for some customer interviews? 😉*
+
