@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to be a Legendary SaaS Product Manager"
+title:  "How to Be a Legendary SaaS Product Manager"
 date:   2025-04-09 11:00:00 -0400
 categories: satirical 
 ---
