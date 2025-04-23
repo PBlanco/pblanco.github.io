@@ -2,14 +2,14 @@
 layout: default
 title: Interests
 ---
-# Professional Development
-- **Product Management**: I'm passionate about creating impactful products. You can often find me at NYC meetups like [Data Driven NYC](https://www.meetup.com/NYC-Data-Business-Meetup/), staying updated on the latest in Product, AI, and Big Data.
-
 # Hobbies
-- **Running**: An avid runner since 2015, I completed my first half marathon in 2019 and am currently training for the [2025 United Airlines NYC Half Marathon](https://www.nyrr.org/races/2025unitedairlinesnychalf), overcoming a challenging injury in 2023.
-- **Coding**: I've always loved coding and building tools for myself. Latest project is [LowLow](https://lowlow.bot) a privacy-focused price tracking app.
-- **Poker**: I've been honing my poker skills since 2023, fascinated by the game's strategy and psychology. Recommended reads: "Phil Gordon's Little Green Book", "The Theory of Poker", and "The Biggest Bluff".
+- 🏃‍♂️ **Running**: An avid runner since 2015, I completed my first half marathon in 2019 and most recently ran the [2025 United Airlines NYC Half Marathon](https://www.strava.com/activities/13899267283){:target="_blank" rel="noopener noreferrer"}, overcoming a challenging injury in 2023.
+- 🚴‍♂️ **Cycling**: I started cycling in 2025. My goal is to ride from Manhattan to Poughkeepsie by the end of the year.
+- 🦜 **Birding**: You can find me in Central Park during April-May and Sept-Oct in the early mornings looking for migrating birds. My favorite spot is The Pool. The rest of the year, I'm on Larkwire getting ready for the season.
+- 🎮 **Gaming**: The [Polytopia](https://polytopia.io/polytopia-weekly-challenge/){:target="_blank" rel="noopener noreferrer"} weekly challenge on iPhone and Mario Kart on Nintendo Switch are my go-to games.
+
 
 # Continuous Learning
-- **YouTube**: I enjoy educational channels like [Smarter Every Day](https://www.youtube.com/@SmarterEveryDay), [Real Engineering](https://www.youtube.com/@realengineering), [Computerphile](https://www.youtube.com/@Computerphile), and [Numberphile](https://www.youtube.com/@numberphile).
-- **Reading**: My interests span Sci-Fi, Fantasy, Biographies, History, and Psychology. Check out my favorites on [Goodreads](https://www.goodreads.com/user/show/66203612-peter). 
+- **YouTube**: I enjoy educational channels like [Smarter Every Day](https://www.youtube.com/@SmarterEveryDay){:target="_blank" rel="noopener noreferrer"}, [Real Engineering](https://www.youtube.com/@realengineering){:target="_blank" rel="noopener noreferrer"}, [Computerphile](https://www.youtube.com/@Computerphile){:target="_blank" rel="noopener noreferrer"}, and [Numberphile](https://www.youtube.com/@numberphile){:target="_blank" rel="noopener noreferrer"}.
+- **Reading**: My interests span Sci-Fi, Fantasy, Biographies, History, and Psychology. Check out my favorites on [Goodreads](https://www.goodreads.com/user/show/66203612-peter){:target="_blank" rel="noopener noreferrer"}. 
+-  **Languages**: I'm a forever spanish student. No matter how much time I spend practicing, I still have difficulty speaking. Duolingo's marketing won me over.

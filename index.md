@@ -4,7 +4,7 @@ title: Home
 ---
 <span class="wave">👋</span> Hi, I'm <span style="font-weight: 600;">Peter Blanco</span>, a startup founder working on the next big thing 🚀. Stay tuned!
 
-![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: width="100%" style="display: block; margin: 0 auto;"}
+![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: width="80%" style="display: block; margin: 0 auto; max-width: 500px;"}
 
 ## Latest projects
 - **March 2025**: 🔐 [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank" rel="noopener noreferrer"} - An open-source safe way to share files.
@@ -23,6 +23,6 @@ title: Home
 
 ## Find me on
 
-- [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}){:target="_blank" rel="noopener noreferrer"}
-- [GitHub](https://github.com/{{ site.github_username }}){:target="_blank" rel="noopener noreferrer"}
-- [Twitter](https://twitter.com/{{ site.twitter_username }}){:target="_blank" rel="noopener noreferrer"}
+- 💼 [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}){:target="_blank" rel="noopener noreferrer"}
+- 👨🏻‍💻 [GitHub](https://github.com/{{ site.github_username }}){:target="_blank" rel="noopener noreferrer"}
+- 🐦 [X](https://x.com/{{ site.twitter_username }}){:target="_blank" rel="noopener noreferrer"}
