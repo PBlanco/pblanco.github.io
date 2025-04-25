@@ -63,6 +63,13 @@ main p {
   line-height: 1.7;
 }
 
+main ul {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.7; 
+}
+
+
 main a {
   color: var(--primary);
   text-decoration: none;
