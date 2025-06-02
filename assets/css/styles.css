@@ -1,6 +1,7 @@
 /* Global Styles */
 :root {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   --primary: #0070f3;
   --text-primary: #111827;
@@ -42,7 +43,8 @@ main h2 {
   font-weight: 700;
 }
 
-main ul, main ol {
+main ul,
+main ol {
   color: var(--text-secondary);
   font-size: 1.1rem;
   line-height: 1.7;
@@ -50,7 +52,8 @@ main ul, main ol {
   margin-bottom: 1.8em;
 }
 
-main ul > li > p, main ol > li > p {
+main ul > li > p,
+main ol > li > p {
   color: var(--text-primary);
   margin: 0;
   padding: 0;
@@ -190,15 +193,16 @@ pre {
   margin: 1.5em 0;
   overflow-x: auto;
   font-size: 0.95em;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 code {
-  font-family: 'Fira Code', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+  font-family: "Fira Code", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
 }
 
 /* Inline code */
-p code, li code {
+p code,
+li code {
   background-color: #f5f7fa;
   color: var(--text-primary);
   padding: 0.2em 0.4em;
@@ -255,7 +259,8 @@ table {
   margin-bottom: 1em;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
@@ -311,12 +316,64 @@ tr:hover {
 }
 
 @keyframes wave {
-  0% { transform: rotate(0deg); }
-  20% { transform: rotate(30deg); }
-  40% { transform: rotate(0deg); }
-  60% { transform: rotate(30deg); }
-  80% { transform: rotate(0deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(30deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(30deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+.intro-greeting {
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.intro-name {
+  color: #2563eb;
+}
+.intro-desc {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  max-width: 600px;
+  text-align: center;
+  color: #444;
+}
+.intro-highlight {
+  background: #e0e7ff;
+  color: #1e40af;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  font-weight: 500;
+}
+.intro-muted {
+  color: #888;
+}
+.intro-img {
+  width: 80%;
+  display: block;
+  margin: 0 auto 2rem auto;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}

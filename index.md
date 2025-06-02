@@ -2,9 +2,20 @@
 layout: default
 title: Home
 ---
-<span class="wave">👋</span> Hi, I'm <span style="font-weight: 600;">Peter Blanco</span>, a startup founder working on the next big thing 🚀. Stay tuned!
+<div class="intro">
+  <div class="intro-greeting">
+    <span class="wave">👋</span> Hi, I'm <span class="intro-name">Peter Blanco</span>
+  </div>
+  <div class="intro-desc">
+    I'm exploring how to
+    <span class="intro-highlight">
+      help enterprise product teams move faster from user feedback to roadmap
+    </span>.
+    Talking to PMs, trying prototypes, and looking for early partners 🚀. <span class="intro-muted">Stay tuned!</span>
+  </div>
+</div>
 
-![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: width="80%" style="display: block; margin: 0 auto; max-width: 500px;"}
+![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
 ## Latest projects
 - **March 2025**: [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank" rel="noopener noreferrer"} - An open-source safe way to share files.
