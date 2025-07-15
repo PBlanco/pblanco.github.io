@@ -1,16 +1,18 @@
-import Layout from '../../components/Layout'
+import { Metadata } from 'next'
 import Link from 'next/link'
-import { GetStaticProps } from 'next'
-import { getSortedPostsData, PostData } from '../../lib/posts'
+import { getSortedPostsData } from '../../lib/posts'
 import { format } from 'date-fns'
 
-interface BlogProps {
-  posts: PostData[]
+export const metadata: Metadata = {
+  title: 'Blog - Peter Blanco',
+  description: 'Tech, travel, and product management insights',
 }
 
-export default function Blog({ posts }: BlogProps) {
+export default async function BlogPage() {
+  const posts = getSortedPostsData()
+
   return (
-    <Layout title="Blog - Peter Blanco" description="Tech, travel, and product management insights">
+    <>
       <Link href="/" className="back-link">
         ← Back to Home
       </Link>
@@ -39,15 +41,6 @@ export default function Blog({ posts }: BlogProps) {
           </div>
         ))}
       </div>
-    </Layout>
+    </>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const posts = getSortedPostsData()
-  return {
-    props: {
-      posts
-    }
-  }
 }

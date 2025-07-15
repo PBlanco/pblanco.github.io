@@ -1,16 +1,22 @@
-import Layout from '../components/Layout'
+import { Metadata } from 'next'
 import Link from 'next/link'
-import { GetStaticProps } from 'next'
-import { getSortedPostsData, PostData } from '../lib/posts'
+import { getSortedPostsData } from '../../lib/posts'
 import { format } from 'date-fns'
 
-interface TravelGuidesProps {
-  posts: PostData[]
+export const metadata: Metadata = {
+  title: 'Travel Guides - Peter Blanco',
+  description: 'Travel guides and tips from my adventures',
 }
 
-export default function TravelGuides({ posts }: TravelGuidesProps) {
+export default async function TravelGuidesPage() {
+  const allPosts = getSortedPostsData()
+  // Filter posts that belong to travel-guides category
+  const travelPosts = allPosts.filter(post => 
+    post.categories?.includes('travel-guides')
+  )
+
   return (
-    <Layout title="Travel Guides - Peter Blanco" description="Travel guides and tips from my adventures">
+    <>
       <Link href="/" className="back-link">
         ← Back to Home
       </Link>
@@ -18,7 +24,7 @@ export default function TravelGuides({ posts }: TravelGuidesProps) {
       <h1>Travel Guides</h1>
       
       <div>
-        {posts.map((post) => (
+        {travelPosts.map((post) => (
           <div key={post.slug} className="blog-post-item">
             <h2 className="blog-post-title">
               <Link href={`/blog/${post.slug}`}>
@@ -39,20 +45,6 @@ export default function TravelGuides({ posts }: TravelGuidesProps) {
           </div>
         ))}
       </div>
-    </Layout>
+    </>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const allPosts = getSortedPostsData()
-  // Filter posts that belong to travel-guides category
-  const travelPosts = allPosts.filter(post => 
-    post.categories?.includes('travel-guides')
-  )
-  
-  return {
-    props: {
-      posts: travelPosts
-    }
-  }
 }

@@ -1,9 +1,14 @@
-import Layout from '../components/Layout'
+import { Metadata } from 'next'
 import Link from 'next/link'
 
-export default function Interests() {
+export const metadata: Metadata = {
+  title: 'Interests - Peter Blanco',
+  description: 'My hobbies and continuous learning interests',
+}
+
+export default function InterestsPage() {
   return (
-    <Layout title="Interests - Peter Blanco" description="My hobbies and continuous learning interests">
+    <>
       <Link href="/" className="back-link">
         ← Back to Home
       </Link>
@@ -64,6 +69,6 @@ export default function Interests() {
           <strong>Languages</strong>: I'm a forever spanish student. No matter how much time I spend practicing, I still have difficulty speaking. Duolingo's marketing won me over.
         </li>
       </ul>
-    </Layout>
+    </>
   )
 }

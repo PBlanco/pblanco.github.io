@@ -4,12 +4,13 @@ A modern personal website built with Next.js, React, and TypeScript. Features a 
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 with React 18
+- **Framework**: Next.js 14 with React 18 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4 with custom CSS variables
 - **Typography**: @tailwindcss/typography for blog posts
 - **Deployment**: Vercel
 - **Content**: Markdown-based blog posts with gray-matter
+- **Architecture**: React Server Components for optimal performance
 
 ## Getting Started
 
@@ -50,12 +51,20 @@ The site is configured for deployment on Vercel. Simply connect your repository 
 
 ## Project Structure
 
-- `pages/` - Next.js pages (routes)
-- `components/` - React components
+- `app/` - Next.js App Router pages and layouts
 - `lib/` - Utility functions
+- `styles/` - Global styles and Tailwind configuration
 - `_posts/` - Blog posts in Markdown format
-- `assets/` - Static assets (images, favicons)
-- `public/` - Public assets served by Next.js
+- `public/assets/` - Static assets (images, favicons)
+
+### App Router Structure
+- `app/layout.tsx` - Root layout component
+- `app/page.tsx` - Home page
+- `app/blog/page.tsx` - Blog listing page
+- `app/blog/[slug]/page.tsx` - Individual blog post pages
+- `app/interests/page.tsx` - Interests page
+- `app/travel-guides/page.tsx` - Travel guides listing
+- `app/not-found.tsx` - 404 error page
 
 ## Blog Posts
 
@@ -67,12 +76,15 @@ Blog posts are written in Markdown and stored in the `_posts/` directory. Each p
 
 ## Features
 
-- Static site generation for optimal performance
-- Responsive design
-- SEO optimized with meta tags
-- Blog with Markdown support
-- Travel guides section
-- Dark mode support (coming soon)
+- **App Router**: Modern Next.js 14 App Router with React Server Components
+- **Static Generation**: All pages pre-generated at build time for optimal performance
+- **SEO Optimized**: Built-in metadata API for better search engine optimization
+- **Responsive Design**: Mobile-first approach with custom breakpoints
+- **Blog System**: Markdown-based blog posts with syntax highlighting
+- **Travel Guides**: Dedicated section for travel content
+- **Modern CSS**: Tailwind CSS v4 with custom design system
+- **TypeScript**: Full type safety throughout the application
+- **Performance**: Optimized bundle sizes and loading times
 
 ## License
 

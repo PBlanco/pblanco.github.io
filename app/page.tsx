@@ -1,10 +1,14 @@
-import Layout from '../components/Layout'
-import Image from 'next/image'
+import { Metadata } from 'next'
 import Link from 'next/link'
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: 'Peter Blanco - Product Manager & Tech Professional',
+  description: 'Product Manager focused on AI and Big Data. Senior PM at ActionIQ/Uniphore. Writing about tech, travel, and product management.',
+}
+
+export default function HomePage() {
   return (
-    <Layout title="Peter Blanco - Product Manager & Tech Professional">
+    <>
       <div className="intro-section">
         <div className="intro-greeting">
           <span className="wave">👋</span> Hi, I'm <span className="intro-name">Peter Blanco</span>
@@ -74,6 +78,6 @@ export default function Home() {
           → View all blog posts
         </Link>
       </div>
-    </Layout>
+    </>
   )
 }
