@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <Layout title="Peter Blanco - Product Manager & Tech Professional">
-      <div className="intro">
+      <div className="intro-section">
         <div className="intro-greeting">
           <span className="wave">👋</span> Hi, I'm <span className="intro-name">Peter Blanco</span>
         </div>

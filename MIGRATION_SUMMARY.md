@@ -7,7 +7,7 @@ Successfully migrated Peter Blanco's personal website from Jekyll to Next.js wit
 
 ### 🔄 Technology Stack Migration
 - **From**: Jekyll (Ruby-based static site generator)
-- **To**: Next.js 14 + React 18 + TypeScript + Vercel
+- **To**: Next.js 14 + React 18 + TypeScript + Tailwind CSS v4 + Vercel
 
 ### 📁 Project Structure
 ```
@@ -35,11 +35,12 @@ Successfully migrated Peter Blanco's personal website from Jekyll to Next.js wit
 
 ### 🎨 Design & Features
 - **Responsive Design**: Mobile-first approach with breakpoints
-- **Modern CSS**: CSS-in-JS with styled-jsx for component scoping
-- **Typography**: Clean, readable typography with proper spacing
-- **Animations**: Subtle wave animation on home page
+- **Modern CSS**: Tailwind CSS v4 with custom CSS variables and themes
+- **Typography**: Clean, readable typography with @tailwindcss/typography
+- **Animations**: Subtle wave animation on home page with custom keyframes
 - **SEO Optimized**: Meta tags, Open Graph, Twitter Cards
 - **Performance**: Static site generation (SSG) for optimal loading
+- **Styling**: Custom color palette and design system with CSS variables
 
 ### 📝 Content Migration
 - **Blog Posts**: All 5 blog posts migrated from `_posts/` directory
@@ -68,6 +69,8 @@ Successfully migrated Peter Blanco's personal website from Jekyll to Next.js wit
 - **Hot Reloading**: Instant feedback during development
 - **ESLint**: Code quality and consistency
 - **Modern Tooling**: Latest React and Next.js features
+- **Tailwind CSS v4**: Modern CSS with @theme directive and CSS variables
+- **Utility-First**: Rapid development with utility classes and custom styles
 
 ### SEO & Social
 - **Meta Tags**: Dynamic meta tags for each page
@@ -78,17 +81,19 @@ Successfully migrated Peter Blanco's personal website from Jekyll to Next.js wit
 ## Build Results
 ```
 Route (pages)                                      Size     First Load JS
-┌ ○ /                                              3.08 kB        88.7 kB
+┌ ○ /                                              1.99 kB        84.4 kB
 ├   /_app                                          0 B              80 kB
-├ ○ /404                                           2.06 kB        87.7 kB
-├ ● /blog                                          2.17 kB        93.9 kB
-├ ● /blog/[slug]                                   2.14 kB        93.9 kB
-├ ○ /interests                                     2.94 kB        88.6 kB
-└ ● /travel-guides                                 2.19 kB        93.9 kB
+├ ○ /404                                           969 B          83.4 kB
+├ ● /blog                                          1.12 kB        89.7 kB
+├ ● /blog/[slug]                                   1.06 kB        89.6 kB
+├ ○ /interests                                     1.84 kB        84.3 kB
+└ ● /travel-guides                                 1.15 kB        89.7 kB
 
 ○  (Static)  prerendered as static content
 ●  (SSG)     prerendered as static HTML (uses getStaticProps)
 ```
+
+**Performance Improvements**: Bundle sizes are significantly smaller with Tailwind CSS v4's optimized output.
 
 ## How to Use
 

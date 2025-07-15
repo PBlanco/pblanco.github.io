@@ -17,10 +17,10 @@ export default function Post({ post }: PostProps) {
       
       <article>
         <h1>{post.title}</h1>
-        <div className="date">
+        <div className="blog-post-date">
           {format(new Date(post.date), 'MMMM d, yyyy')}
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div className="prose-custom" dangerouslySetInnerHTML={{ __html: post.content }} />
       </article>
     </Layout>
   )

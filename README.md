@@ -6,7 +6,8 @@ A modern personal website built with Next.js, React, and TypeScript. Features a 
 
 - **Framework**: Next.js 14 with React 18
 - **Language**: TypeScript
-- **Styling**: CSS-in-JS with styled-jsx
+- **Styling**: Tailwind CSS v4 with custom CSS variables
+- **Typography**: @tailwindcss/typography for blog posts
 - **Deployment**: Vercel
 - **Content**: Markdown-based blog posts with gray-matter
 
