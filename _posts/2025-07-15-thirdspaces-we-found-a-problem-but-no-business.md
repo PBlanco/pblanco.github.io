@@ -21,47 +21,46 @@ We started a spreadsheet to track outreach and began cold-calling bars near us. 
 
 From these conversations, we learned:
 
-* **No clear dissatisfaction among bars and restaurants:** Event managers using Tripleseat are content. Those not using software are also content.  
-* **Decision-makers are hard to reach:** The software buyer is the owner or management company. It’s harder to get in contact with them than the event manager.  
-* **Lack of urgency for transparency:** Bars and restaurants aren’t concerned with public-facing pricing. It’s not available because they haven’t found the need to make it available.
+* **No clear dissatisfaction among bars and restaurants:** Tripleseat users seem satisfied, and those without software don’t feel underserved.
+* **Decision-makers are hard to reach than event managers:** The buyer is usually the owner or management company.
+* **Lack of urgency for transparency:** Bars and restaurants don’t publish pricing because they don’t see value in making it public.
 
-We also spoke with a few folks who have worked on similar event booking tech companies and learned:
+We also spoke with a few folks who are working on similar event booking companies and learned:
 
 * **Corporate event demand remains soft:** Revenue growth is slower than expected, largely because corporate events haven’t returned to pre-COVID levels. We reasoned this is the main revenue driver for these startups.  
-* **High CAC from labor-intensive sales:** Customer acquisition costs are high, often due to the hands-on effort needed for sales and onboarding.  
-* **Event coordinators avoid instant booking:** Pricing, packaging, and availability info need to be kept up-to-date for instant booking to be reliable, so users often don’t use the feature to avoid this hassle. They also want to maximize revenue per event, which is perceived as less effective when using instant booking. For example, raising prices when they recognize a corporate email.  
-* **Percentage-based pricing models don’t stick:** Venues will bypass the platform to avoid booking fees, pushing software companies towards a monthly subscription model instead. Also, restaurants typically prefer their own payment systems, likely due to lower credit card processing fees than Stripe’s 2.9%, further reducing the opportunity for booking fees.
+* **High CAC from labor-intensive sales:** Often due to the hands-on effort needed for sales and onboarding.  
+* **Instant booking features aren’t used:** Event coordinators avoid them because keeping pricing, packages, and availability updated takes constant effort. They also prefer to price each event manually to maximize revenue. For example, raising rates when they spot a corporate email. Instant booking doesn’t support that kind of flexibility.
+* **Percentage-based pricing models don’t stick:** Venues will bypass the platform to avoid booking fees, pushing these booking companies towards a monthly subscription model. Also, restaurants typically prefer their own payment systems, likely due to lower credit card processing fees, further reducing the opportunity to capture booking fees.
 
-After learning about these headwinds, we still proceeded to build prototypes to demo and sell to bars and restaurants. We had three iterations with different flows, quickly learning event booking is a messy process. Two major decisions we had to make were: 
+Despite the headwinds, we built and tested three prototype flows to demo to bars and restaurants. Through three iterations, we quickly learned that event booking is a messy inconsistent process. This lead to two major decisions:
 
-1. **Solution approach:** Focus on simplifying packaging and try to re-educate owners when we sell them ThirdSpaces, v.s. try to support their various packaging approaches.  
-2. **Target customer:** Focus on bars only v.s. restaurants only to start, due to their different structured booking flow.
+1. **Solution approach:** Simplify packaging and re-educating owners, or supporting their existing, often inconsistent, pricing structures.
+2. **Target customer:** Start with either bars or resteraunts, since each has a different booking flow and sales cycle.
 
-In the end, we decided to stop working on ThirdSpaces.
+In the end, we made a third and final decision: to shut down ThirdSpaces.
 
 ### Why we’re stopping
 
 We found a problem.
 
-1. **But not a big enough one.** Coordinating events is neither frequent nor painful enough for venues to adopt dedicated software.  
-2. **But not a workable solution.** Consumer experience depends on up-to-date venue data, but most venues aren’t incentivized to maintain it. Booking flows also vary widely, which adds complexity to the product.  
-3. **But not a sustainable business.** Restaurants and bars run on thin margins and often change ownership, making recurring revenue difficult to maintain. Meanwhile, high CAC from complex sales and onboarding further limits profitability.  
-4. **But no clear product differentiation.** ThirdSpaces doesn’t stand out. Competitors like TripleseatDirect and PerfectVenue Instantbook are ahead, and even they seem to struggle to gain traction.  
-5. **But no clear early adopters.** Most venues avoid early-stage tools. The only viable path would be to co-develop the product with a venue from day one.
+* **But not a big enough one.** Coordinating events is neither frequent nor painful enough for venues to adopt dedicated software.  
+* **But not a workable solution.** Consumer experience depends on up-to-date venue data, but most venues aren’t incentivized to maintain the data. Booking flows also vary widely, which adds complexity to the product.  
+* **But not a sustainable business.** Restaurants and bars run on thin margins and often change ownership, making recurring revenue difficult to maintain. Meanwhile, high CAC from complex sales and onboarding further limits profitability.  
+* **But no clear product differentiation.** ThirdSpaces doesn’t stand out. Competitors like TripleseatDirect and PerfectVenue Instantbook are ahead, and even they seem to struggle to gain traction.  
+* **But no clear early adopters.** Most venues avoid early-stage tools. We were not able to find a venue to co-develop the product with from day one.
 
 ### So, what did we learn?
-First, **marketplaces only work when both sides care.** Consumers want speed in booking, simplicity in picking packages, and fairness in pricing. They’d happily use ThirdSpaces. But, venues aren’t incentivized to change and digitize, thus we don’t have the data for the consumers. Jumpstarting this marketplace is difficult. We respect how PerfectVenue is directly taking on Tripleseat’s CRM business to get the restaurants on their platform before they make their shift to instant booking one day soon [book.perfectvenue.com](http://book.perfectvenue.com).
+First, **marketplaces only work when both sides care.** Consumers want speed in booking, simplicity in picking packages, and fairness in pricing. They’d happily use ThirdSpaces. But, venues aren’t incentivized to change and digitize, thus we don’t have the data for the consumers. Jumpstarting this marketplace is difficult. We respect how PerfectVenue is directly taking on Tripleseat’s CRM business to get the restaurants on their platform before they, one day, make their [shift to instant booking](http://book.perfectvenue.com){:target="_blank"}.
 
-Second, **taking action quickly uncovers information quickly.** If you want to learn about a competitor, request a demo and reach out to them on LinkedIn. If you want to talk to the users, reach out to them, go meet them where they are, and get a warm intro from another person who will talk to you. If you want to have a landing page, choose a domain and launch it quickly. Just keep making forward progress and you’ll be surprised how much you can learn and time you can save in the long run.
+Second, **move fast to learn fast**. Want to learn about a competitor? Request a demo and message them on LinkedIn. Want to talk to users? Reach out directly, show up where they are, or ask someone for an intro. Need a landing page? Pick a domain and launch it. Keep making forward progress. You’ll learn more and waste less time thinking.
 
-Third and last, **use AI sparingly** for anything other than web searches. Seriously, I know every LinkedIn post says the opposite. But, true breakthrough learnings come from talking with real people and connecting your own dots. Don’t use AI to give you fake user feedback that validates your assumptions (confirmation bias). Don’t use AI code generation (slot machines) to create infinite prototypes. Be deliberate and use your brain – this will be faster in the long run.
+Third and last, **use AI sparingly** for anything other than web searches. Real learnings come from talking to people and connecting your own dots. AI won't give you honest user feedback. And generating endless prototypes is like pulling a slot machine. It’s addictive, but rarely useful. Be deliberate. Think clearly. That's what actually drives progress.
 
 ### What we’d do differently next time
 
-1. **Start with what we know.** If we don’t, find someone with firsthand knowledge who’s willing to work with us from day one before committing to build anything.  
-2. **Find a way to secure a pilot customer before writing code.** If you must code, only write code that will help you secure a pilot customer.  
-3. **Tailor the prototype to who you’re selling to.** Keep it simple, like mocks or a small demo, just to spark a conversation.  
-4. **Keep checking whether you’re building a sustainable business.** Some problems are real, but live in markets too small to support a business.
+* **Start with what we know.** If we don’t, find someone with firsthand knowledge who’s willing to work with us from day one.
+* **Find a way to secure a pilot customer before writing code.** If you must, only write code that will enable you to get a pilot customer.  
+* **Keep checking whether you’re building a sustainable business.** Some problems are real, but live in markets too small to support a business.
 
 ### Final thoughts
 

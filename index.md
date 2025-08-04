@@ -18,9 +18,9 @@ title: Home
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
 ## Latest projects
-- **June 2025**: *ThirdSpace* - Discover, book, and pay in minutes for private bar events in NYC.
+- **June 2025**: [ThirdSpace ](https://www.getthirdspaces.com){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
 - **June 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} - AI-powered user interviews.
-- **May 2025**: [Date-a-base (unfinished)](http://dateabase.vercel.app){:target="_blank"} - Date ideas in the Upper West Side.
+- **May 2025**: [Date-a-base](http://dateabase.vercel.app){:target="_blank"} - (Not finished) Date ideas in the Upper West Side.
 - **March 2025**: [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
 - **Feb 2025**: [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank"} - Format your HackerNews post with ease.
 - **Jan 2025**: [LowLow](https://lowlow.bot){:target="_blank"} - A privacy-focused price tracking app.
