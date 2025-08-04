@@ -22,50 +22,50 @@ We started a spreadsheet to track outreach and began cold-calling bars near us. 
 From these conversations, we learned:
 
 * **No clear dissatisfaction among bars and restaurants:** Tripleseat users seem satisfied, and those without software don’t feel underserved.
-* **Decision-makers are hard to reach than event managers:** The buyer is usually the owner or management company.
+* **Decision-makers are harder to reach than event managers:** The buyer is usually the owner or management company.
 * **Lack of urgency for transparency:** Bars and restaurants don’t publish pricing because they don’t see value in making it public.
 
 We also spoke with a few folks who are working on similar event booking companies and learned:
 
 * **Corporate event demand remains soft:** Revenue growth is slower than expected, largely because corporate events haven’t returned to pre-COVID levels. We reasoned this is the main revenue driver for these startups.  
 * **High CAC from labor-intensive sales:** Often due to the hands-on effort needed for sales and onboarding.  
-* **Instant booking features aren’t used:** Event coordinators avoid them because keeping pricing, packages, and availability updated takes constant effort. They also prefer to price each event manually to maximize revenue. For example, raising rates when they spot a corporate email. Instant booking doesn’t support that kind of flexibility.
-* **Percentage-based pricing models don’t stick:** Venues will bypass the platform to avoid booking fees, pushing these booking companies towards a monthly subscription model. Also, restaurants typically prefer their own payment systems, likely due to lower credit card processing fees, further reducing the opportunity to capture booking fees.
+* **Instant booking features aren’t used:** Event coordinators avoid them because keeping pricing, packages, and availability updated takes constant effort. They also prefer to price each event manually to maximize revenue. For example, raising pricing when they spot a corporate email. Instant booking doesn’t support that kind of flexibility yet.
+* **Percentage-based pricing models don’t stick:** Venues will bypass the platform to avoid booking fees, pushing these booking companies towards a monthly subscription model instead. Also, restaurants typically prefer their own payment systems, likely due to lower credit card processing fees, further reducing the opportunity to capture booking fees.
 
-Despite the headwinds, we built and tested three prototype flows to demo to bars and restaurants. Through three iterations, we quickly learned that event booking is a messy inconsistent process. This lead to two major decisions:
+Despite the headwinds, we built and tested three prototype flows to demo to bars and restaurants. Through three iterations, we quickly learned that event booking is a messy inconsistent process. This led to two major decisions:
 
-1. **Solution approach:** Simplify packaging and re-educating owners, or supporting their existing, often inconsistent, pricing structures.
+1. **Solution approach:** Simplify packaging + processes and re-educating owners, or supporting their existing, often inconsistent, processes.
 2. **Target customer:** Start with either bars or resteraunts, since each has a different booking flow and sales cycle.
 
 In the end, we made a third and final decision: to shut down ThirdSpaces.
 
 ### Why we’re stopping
 
-We found a problem.
+We found a problem. But:
 
-* **But not a big enough one.** Coordinating events is neither frequent nor painful enough for venues to adopt dedicated software.  
-* **But not a workable solution.** Consumer experience depends on up-to-date venue data, but most venues aren’t incentivized to maintain the data. Booking flows also vary widely, which adds complexity to the product.  
-* **But not a sustainable business.** Restaurants and bars run on thin margins and often change ownership, making recurring revenue difficult to maintain. Meanwhile, high CAC from complex sales and onboarding further limits profitability.  
-* **But no clear product differentiation.** ThirdSpaces doesn’t stand out. Competitors like TripleseatDirect and PerfectVenue Instantbook are ahead, and even they seem to struggle to gain traction.  
-* **But no clear early adopters.** Most venues avoid early-stage tools. We were not able to find a venue to co-develop the product with from day one.
+* **Not a big enough one.** Coordinating events is neither frequent nor painful enough for venues to adopt dedicated software.  
+* **Not a workable solution.** Consumer experience depends on up-to-date venue data, but most venues aren’t incentivized to maintain the data. Booking flows also vary widely, which adds complexity to the product.  
+* **Not a sustainable business.** Restaurants and bars run on thin margins and often change ownership, making recurring revenue difficult to maintain. Meanwhile, high CAC from complex sales and onboarding further limits profitability.  
+* **No clear product differentiation.** ThirdSpaces doesn’t stand out. Competitors like TripleseatDirect and PerfectVenue Instantbook are ahead, and even they seem to struggle to gain traction.  
+* **No clear early adopters.** Most venues avoid early-stage tools. We were not able to find a venue to co-develop the product with from day one.
 
 ### So, what did we learn?
 First, **marketplaces only work when both sides care.** Consumers want speed in booking, simplicity in picking packages, and fairness in pricing. They’d happily use ThirdSpaces. But, venues aren’t incentivized to change and digitize, thus we don’t have the data for the consumers. Jumpstarting this marketplace is difficult. We respect how PerfectVenue is directly taking on Tripleseat’s CRM business to get the restaurants on their platform before they, one day, make their [shift to instant booking](http://book.perfectvenue.com){:target="_blank"}.
 
 Second, **move fast to learn fast**. Want to learn about a competitor? Request a demo and message them on LinkedIn. Want to talk to users? Reach out directly, show up where they are, or ask someone for an intro. Need a landing page? Pick a domain and launch it. Keep making forward progress. You’ll learn more and waste less time thinking.
 
-Third and last, **use AI sparingly** for anything other than web searches. Real learnings come from talking to people and connecting your own dots. AI won't give you honest user feedback. And generating endless prototypes is like pulling a slot machine. It’s addictive, but rarely useful. Be deliberate. Think clearly. That's what actually drives progress.
+Third and last, **use AI sparingly** for anything other than web searches and proofreading. Real learnings come from talking to people and connecting your own dots. AI won't give you real user feedback. And generating endless prototypes is like pulling a slot machine. It’s addictive, but rarely useful. Be deliberate. Think clearly. That's what actually drives progress.
 
 ### What we’d do differently next time
 
 * **Start with what we know.** If we don’t, find someone with firsthand knowledge who’s willing to work with us from day one.
-* **Find a way to secure a pilot customer before writing code.** If you must, only write code that will enable you to get a pilot customer.  
+* **Find a way to secure a pilot customer before writing code.** If you must, only write code that will enable you to get a pilot customer or user. It's OK to be the user when you're building for yourself.
 * **Keep checking whether you’re building a sustainable business.** Some problems are real, but live in markets too small to support a business.
 
 ### Final thoughts
 
-* We felt the problem ourselves and still believe there’s an opportunity for the right founder to solve it.  
-* Thanks to everyone who shared time and insights with us. We learned more than we could have imagined.  
-* Everyone should explore unfamiliar industries. Building for restaurants showed us a world far removed from enterprise B2B tech and taught us how differently things work on the ground. 
-
-We’ll carry these lessons into whatever we build next.
+* We experienced the consumer-side of this problem firsthand, and still believe there’s an opportunity for the right founder to solve for it.
+* We’re grateful to everyone who shared time and insights with us.
+* Working on restaurant tech, far from enterprise B2B, exposed us to a whole new set of challenges. That novelty was energizing. Solving real problems in new terrain reignited our excitement for building.
+  
+We’re walking away with lessons we couldn’t have gained any other way.
