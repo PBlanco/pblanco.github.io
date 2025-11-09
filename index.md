@@ -18,7 +18,8 @@ title: Home
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
 ## Latest projects & explorations
-- **Sep 2025**: Automating acceptance testing for Product Managers and Designers.  
+- **Oct 2025**: [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank"} – Capture annotated screenshots, edit copy, block network requests, and test inputs without leaving the page.
+- **Sep 2025**: Automating acceptance testing for Product Managers and Designers.
 - **Aug 2025**: [Stevens](https://heystevens.com){:target="_blank"} – Stevens automates your email inbox, with smart labeling, auto archiving, and drafts that sound like you. Invite only
 - **June 2025**: [ThirdSpace ](https://www.getthirdspaces.com){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
 - **June 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} - AI-powered user interviews.
