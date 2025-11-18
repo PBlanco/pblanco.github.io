@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* padding-right: 130px;  # Was for the right nav */
+  padding-right: 155px; /* Space for the right nav */
   background-color: var(--background);
   color: var(--text-primary);
 }
@@ -226,24 +226,53 @@ li code {
   }
 
   .right-nav {
-    position: static;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: auto;
-    padding: 16px;
+    padding: 8px 16px;
     border-left: none;
     border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(10px);
   }
 
   .right-nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
+    gap: 6px 10px;
   }
 
   .right-nav li {
     margin: 0;
     text-align: center;
+    flex: 0 0 auto;
+  }
+
+  .right-nav a {
+    display: inline-block;
+    padding: 6px 10px;
+    line-height: 1.4;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+    font-weight: 500;
+    box-sizing: border-box;
+    min-width: fit-content;
+  }
+
+  .right-nav a:hover {
+    background-color: rgba(0, 112, 243, 0.08);
+  }
+
+  .right-nav a.current {
+    background-color: rgba(0, 112, 243, 0.12);
+    color: var(--primary);
+    font-weight: 500;
   }
 
   .blog-list li {
@@ -393,4 +422,21 @@ main img ~ em {
   line-height: 0;
   font-size: 0.8em;
   color: var(--text-secondary);
+}
+
+/* Back to Blog link */
+.back-to-blog {
+  margin-bottom: 1.5em;
+}
+
+.back-to-blog a {
+  color: var(--text-secondary);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.back-to-blog a:hover {
+  color: var(--primary);
 }

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Be a Legendary SaaS Product Manager"
 date:   2025-04-09 11:00:00 -0400
-categories: satirical 
+categories: startup 
 ---
 
 The most effective way to be a great product manager is to sound like one. This is easier than it sounds.
