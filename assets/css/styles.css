@@ -377,3 +377,20 @@ tr:hover {
   border-radius: 1rem;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
+
+/* Center images in blog posts */
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Center captions that appear in paragraphs immediately after images */
+main img ~ em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  line-height: 0;
+  font-size: 0.8em;
+  color: var(--text-secondary);
+}
