@@ -20,7 +20,7 @@ This is a simplified view, but it's helpful to start here. QA exists to make sur
 
 Bugs aren't just when something doesn’t work. It could work, but not look the way you meant. Sometimes it’s worse. It works the way you meant, but breaks something else in the process.
 
-The most sublte bugs aren’t technical at all, they come from people misunderstanding each other. A feature works as built, but it doesn’t match what the people defining the experience actually wanted.
+The most subtle bugs aren’t technical at all, they come from people misunderstanding each other. A feature works as built, but it doesn’t match what the people defining the experience actually wanted.
 
 When you’re solo, most bugs are caught quickly because you test as you build. Add another person and misunderstandings start creeping in. What to build gets misread, conversations get forgotten, and assumptions drive decisions. The risk shifts from how you build to how you communicate. As teams grow, these challenges multiply. Bug-finding becomes even more about communication and coordination.
 
@@ -103,19 +103,18 @@ It’s a reminder there’s still room for creativity. You don’t need transfor
 
 ## What the future holds
 
-A clear path is unfolding. As more code gets shipped, teams must ensure new features work as expected and do not break what already works.
+If you zoom out, the path forward for QA is not mysterious. It is simply the result of what is happening in software: more code being shipped, more people touching the product, higher expectations, and the same tricky problem at the center, which is deciding what “working as intended” actually means. No amount of automation changes the fact that quality is tied to intent, and intent is messy.
 
-During development, developers will continue manually checking their web apps, as they always have. Inspired by this workflow, we will start seeing coding agents check the web app to test the code they generate works as expected.
+This is why “AI tests everything for you” products always hit ceilings. They do great work around the edges, but the deeper issues come from coordination, communication, and getting everyone aligned on what the experience should be. It is also why the big players keep holding their ground. They already solved much of the operational parts of testing, and most new tools simply repackage those solutions with a different UI.
 
-For critical parts of the user experience, developers will use coding agents to help write end-to-end tests or rely on browser-based recording to generate the code automatically. Less technical teams may rely on browser-based recording tools that try to be no-code, though these will fade as agents make working with code easier for anyone. People will prefer the flexibility that code gives them for testing.
+Where things are changing is in how teams combine the tools they already use. Agents will take over more of the repetitive checks, such as running through flows, flagging unexpected changes, and filling the gaps that humans miss when they are rushing. Developers will still sanity check their own work because they are the only ones who know what they meant to build. QA specialists will cover more surface area than before because the tooling finally gives them real leverage. Bug reports will finally come in clean, complete, and ready for engineering instead of scattered across screenshots and Slack threads.
 
-For less essential parts of an app, we will see more hands-off approaches such as session replay, visual testing, or browser agents providing broad coverage. Smaller players focused solely on these areas will likely be acquired or disappear.
+The toughest issues will always come from people misunderstanding each other. A feature can behave perfectly and still be wrong if the intent was not captured correctly. Agents will help by comparing code, designs, and past behavior to highlight inconsistencies earlier. However, deciding whether something matches what the team actually wanted will remain a human decision.
 
-For bugs caught by users, we will see them surface through bug-reporting tools that contain all the needed information for an engineer to debug it. An AI agent will create a ticket automatically in the ticketing tool with an analysis of the bug and check the app to verify it exists. It will also launch a coding agent that will create a fix, confirming the fix worked by checking the web app, and providing a report with a video of the check for the developer to review and approve.
+So the future is not a world where QA disappears. It is a world where repetitive work is automated, confusing areas are surfaced earlier, and people spend their time on judgment instead of cleanup. The teams that win are the ones that make these tools usable. They will be simple, fast, and intuitive instead of overloaded with complexity.
 
-More efficient tools mean a single QA engineer can cover more ground. So, apps will have better test coverage without larger teams. Experienced QA engineers may start boutique QA-as-a-service shops, running small teams that handle testing for many companies. For small and mid-sized businesses, outsourcing QA may become the default to get the expertise in defining test cases and catching bugs.
+That is the real opportunity here. It is not about reinventing QA from scratch. It is about making the parts we already know work together in a way people actually want to use. That is where the field is heading.
 
-Eventually, a natural convergence may occur: one company offering all these tools and services through a single interface. But, then again, isn’t that what the big players already do?
 
 [^1]:  Tarpit ideas is a term coined by YC for ideas they see often, get a lot of early positive signals, but are so complex they kill the startup. The name is based on tar pits that looked like water to dinosaurs. When the dinosaurs went to drink at them, they got stuck, and ultimately died.
 
