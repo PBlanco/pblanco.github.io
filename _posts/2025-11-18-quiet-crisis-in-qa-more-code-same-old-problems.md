@@ -69,7 +69,7 @@ The biggest wave, though, is **record-and-playback automation**. These tools pro
 ![][image4]  
 *RainforestQA Marketing*
 
-Most of these companies have “AI” mentioned big and bold on their landing pages. But so do the big players. Yes, they’re doing slightly different things focused on the same problem, in areas that have had solutions for years.
+Most of these companies have “AI” mentioned big and bold on their landing pages. But so do the big players.
 
 ## The new wave of QA companies
 
@@ -83,7 +83,7 @@ Another approach is **session** **replay**. These tools capture real users' sess
 
 It’s exciting to see new approaches appear. We’ll have to see if they fundamentally change QA. But, either way, it’s clear that choosing and using these tools is complex and becoming its own problem.
 
-**It’s simpler to use Q-as-Service (QAaaS)** 
+## It’s simpler to use Q-as-Service (QAaaS)
 
 With all these tools and options, someone has to know how to pick and use the right ones. Usually, that means hiring a QA team. But finding people with the right expertise and then managing them isn’t easy.
 
