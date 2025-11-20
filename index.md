@@ -17,12 +17,13 @@ title: Home
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
+## Actively working on
+- [Trailway](https://www.trailway.ai){:target="_blank"} A quicker way for PMs and designers to confirm what’s built matches what’s intended.
+
 ## Latest work & explorations
-- **Nov 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} A quicker way for PMs and designers to confirm what’s built matches what’s intended. 
 - **Oct 2025**: [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank"} – Capture annotated screenshots, edit copy, block network requests, and test inputs without leaving the page.
 - **Aug 2025**: [Stevens](https://heystevens.com){:target="_blank"} – Automate your email inbox, with smart labeling, auto archiving, and drafts that sound like you. Invite only.
 - **June 2025**: [ThirdSpace ](/startup/thirdspaces-we-found-a-problem-but-no-business/){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
-- **June 2025**: Terminus - AI-powered user interviews (replaced by Trailway).
 - **March 2025**: [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
 - **Feb 2025**: [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank"} - Format your HackerNews post with ease.
 - **Jan 2025**: [LowLow](https://lowlow.bot){:target="_blank"} - Price tracking that respects your privacy.
