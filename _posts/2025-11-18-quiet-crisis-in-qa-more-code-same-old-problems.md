@@ -10,7 +10,7 @@ What's surprising is there aren’t many. Even A16Z’s “[The Trillion Dollar 
 
 ## The discovery
 
-I realized this after starting the Antler accelerator. I joined building Trailway.ai, an AI agent that runs through your feature before release, finding design problems and bugs. While outlining my QA approach from past roles, I found it easy to write down obvious things like broken links and buttons. It was a lot harder to define what “quality” and “good” looked like. There are many ways issues appear, and all I could say was “I know it when I see it”.
+I realized this after starting the Antler accelerator. I joined building [Trailway.ai](https://trailway.ai), an AI agent that runs through your feature before release, finding design problems and bugs. While outlining my QA approach from past roles, I found it easy to write down obvious things like broken links and buttons. It was a lot harder to define what “quality” and “good” looked like. There are many ways issues appear, and all I could say was “I know it when I see it”.
 
 Antler founders were excited by the idea of AI finding their bugs. Yet, they too struggled to say what they needed. Speaking with more people at different sized companies, I realized they too had a problem but had trouble articulating their needs. It was the early sign of a tarpit idea.[^1] So, I went to work better defining the problem to solve to help find a solution.
 
