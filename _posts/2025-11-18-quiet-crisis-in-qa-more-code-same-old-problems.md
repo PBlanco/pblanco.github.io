@@ -97,7 +97,7 @@ These companies end up feeling Palantir-esque: they build complex but powerful s
 
 What excites me the most isn't breakthrough new technologies that re-invent testing. It’s creating exceptional user experience with the solutions we’ve already seen.
 
-A great example of this is Jam.dev, a bug reporting tool that came seemingly out of nowhere. To their credit, they have hustled through [thirteen launches](https://www.producthunt.com/products/jam/launches) and pivots over five years to achieve success. They don’t even tackle “QA” directly; instead, they focus on making bug reporting effortless for anyone on a team. In doing so, they’ve managed to unbundle a small slice of what the big players offer, turn it into a delightful user experience, and expand their audience beyond engineers to include roles like customer success. 
+A great example of this is [Jam.dev](https://jam.dev), a bug reporting tool that came seemingly out of nowhere. To their credit, they have hustled through [thirteen launches](https://www.producthunt.com/products/jam/launches) and pivots over five years to achieve success. They don’t even tackle “QA” directly; instead, they focus on making bug reporting effortless for anyone on a team. In doing so, they’ve managed to unbundle a small slice of what the big players offer, turn it into a delightful user experience, and expand their audience beyond engineers to include roles like customer success. 
 
 It’s a reminder there’s still room for creativity. You don’t need transformative technology, nor rebuilding the whole QA stack to create new value. Sometimes, the win is making one overlooked piece of what exists truly great.
 
@@ -113,11 +113,9 @@ Some of these new players promise that AI will test everything, which sounds gre
 
 This creates an interesting problem for these tools: they end up being additive to existing workflows rather than replacing them. They add another thing to check, another tool to integrate, rather than making what people already do dramatically faster. And additive is a much harder sell than "this replaces hours of manual work."
 
-That said, we’ll see real productivity gains. Spinning up test environments for new features will get easier. Testing cycles will speed up as agents propose fixes for issues found. The dumb stuff, like broken buttons, will get caught earlier saving everyone time. Bug triaging will move faster because the right debugging data will be captured automatically. And QA teams will be able to push coverage much further by using record-and-playback tools and coding agents to generate test code.
+That said, we’ll see real productivity gains. Testing cycles will speed up as agents propose fixes for issues found. The dumb stuff, like broken buttons, will get caught earlier saving everyone time. Bug triaging will move faster because the right debugging data will be captured automatically. And QA teams will be able to push coverage much further by using record-and-playback tools and coding agents to generate test code.
 
-So where does this leave us? I think the perception that QA is falling behind as teams ship faster is a bit misleading. QA tools are getting better too. It’s just less explosive growth. We’re seeing incremental progress rather than a revolutionary breakthrough. Maybe we haven’t yet seen the groundbreaking new application of AI that fundamentally changes QA.
-
-The reality is that both development and QA are getting boosts from AI, just in different ways and at different speeds. Development velocity gets all the attention, but QA is quietly improving too. It’s just not the kind of thing that makes for great headlines.
+So where does this leave us? I think the perception that QA is falling behind as teams ship faster is a bit misleading. QA tools are getting better too. It’s just less explosive growth. We’re seeing incremental progress rather than a revolutionary breakthrough. Maybe we haven’t yet seen the breakthrough that fundamentally changes QA. It’s just not the kind of thing that makes for great headlines.
 
 [^1]:  Tarpit ideas is a term coined by YC for ideas they see often, get a lot of early positive signals, but are so complex they kill the startup. The name is based on tar pits that looked like water to dinosaurs. When the dinosaurs went to drink at them, they got stuck, and ultimately died.
 
