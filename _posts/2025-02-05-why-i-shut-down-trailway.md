@@ -29,3 +29,7 @@ I’m grateful I had the chance to explore a problem I care about. Thank you to 
 
 ---
 For more insight into the QA market landscape, read my post: [The Quiet Crisis in QA](../quiet-crisis-in-qa-more-code-same-old-problems/).
+
+![Kicking off Trailway at Antler](/assets/images/trailway/antler-kickoff.jpg){: width="60%" }
+![Trailway landing page screenshot](/assets/images/trailway/trailway-landing.png){: width="80%" }
+![Trailway Chrome extension screenshot](/assets/images/trailway/trailway-chrome.png){: width="80%" }
