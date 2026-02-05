@@ -7,9 +7,7 @@ title: Home
     <span class="wave">👋</span> Hi, I'm <span class="intro-name">Peter Blanco</span>
   </div>
   <div class="intro-desc">
-    I'm currently looking for PM roles in New York and San Francisco at high-growth Series C to public companies.
-    I'm also open to ad-hoc consulting with early-stage teams on ICP definition, MVP scope, prioritization,
-    and the data tooling and customer data platform (CDP) landscape.
+    Open to Product Manager roles in NYC or SF (Series C to public).<br/>Also available for short-term consulting on product direction and customer data platforms.
   </div>
 </div>
 
@@ -19,7 +17,7 @@ title: Home
 - [Stevens](https://heystevens.com){:target="_blank"} – Still building this for fun; currently focused on adding evals and improving quality after completing DeepLearning.AI's "Agentic AI" course.
 
 ## Latest work & explorations
-- **Nov 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} – A quicker way for PMs and designers to confirm what’s built matches what’s intended.
+- **Nov 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} – A quicker way for PMs and designers to confirm what’s built matches what’s intended. [Read the postmortem &rarr;](/startup/why-i-shut-down-trailway/)
 - **Oct 2025**: [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank"} – Capture annotated screenshots, edit copy, block network requests, and test inputs without leaving the page.
 - **June 2025**: [ThirdSpace ](/startup/thirdspaces-we-found-a-problem-but-no-business/){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
 - **March 2025**: [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
