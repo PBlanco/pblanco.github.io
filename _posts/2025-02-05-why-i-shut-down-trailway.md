@@ -22,8 +22,10 @@ Over the course of building and testing Trailway, I learned a few hard truths:
 - Every company’s SDLC process was different, making a one-size-fits-all solution difficult.
 - Building a highly technical solution as a solo founder slow and exhausting.
 - I couldn’t find early adopters because the prototypes were too vague and not solving urgent problems.
-    
-In the end, like most failed startups, I gradually lost conviction. Without clear pull from the market or a co-founder to share the journey, I couldn’t sustain belief in the direction. I learned that problems lacking urgency, clear ownership, and dedicated budget are difficult to turn into sustainable products.
+
+Takeway: Problems lacking urgency, clear ownership, and dedicated budget are difficult to turn into sustainable products.
+
+In the end, I gradually lost conviction. Without clear pull from the market or a co-founder to share the journey, I couldn’t sustain belief in the direction.
 
 I’m grateful I had the chance to explore a problem I care about. Thank you to the people I met in the Antler program, the folks who took meetings with me for research and advising, and my friends and family who were my sounding board throughout.
 
