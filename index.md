@@ -13,22 +13,23 @@ title: Home
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
-## Actively working on
-- [Stevens](https://heystevens.com){:target="_blank"} – Still building this for fun; currently focused on adding evals and improving quality after completing DeepLearning.AI's "Agentic AI" course.
-
-## Latest work & explorations
-- **Nov 2025**: [Trailway](https://www.trailway.ai){:target="_blank"} – A quicker way for PMs and designers to confirm what’s built matches what’s intended. [Read the postmortem &rarr;](/startup/why-i-shut-down-trailway/)
-- **Oct 2025**: [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank"} – Capture annotated screenshots, edit copy, block network requests, and test inputs without leaving the page.
-- **June 2025**: [ThirdSpace ](/startup/thirdspaces-we-found-a-problem-but-no-business/){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
-- **March 2025**: [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
-- **Feb 2025**: [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank"} - Format your HackerNews post with ease.
-- **Jan 2025**: [LowLow](https://lowlow.bot){:target="_blank"} - Price tracking that respects your privacy.
-
-
 ## Previously
-1. **Senior Product Manager** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led product strategy for AI, Analytics, and Data Platforms for Fortune 500 clients. Acquired by [Uniphore](https://uniphore.com){:target="_blank" rel="noopener noreferrer"}.
-2. **Software Engineer** at [SyncOnSet](https://www.synconset.com){:target="_blank" rel="noopener noreferrer"} → Built Emmy-winning software. Later acquired by [Entertainment Partners](https://www.ep.com){:target="_blank" rel="noopener noreferrer"}.
-3. **Founding team member** of [RosieApp](https://www.rosieapp.com){:target="_blank" rel="noopener noreferrer"} → Built iOS app for local grocery delivery, landing first customer. Later acquired by [Instacart](https://www.instacart.com){:target="_blank" rel="noopener noreferrer"}.
+1. **Founder / Antler Founder-in-Residence (Fall 2025)** building [Trailway](https://www.trailway.ai){:target="_blank"} → Built tools to help PMs and designers confirm what’s built matches what’s intended, including the [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank"}. Wound down the company; [read the postmortem &rarr;](/startup/why-i-shut-down-trailway/).
+2. **Product (2019-2025)** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led product strategy for AI, Analytics, and Data Platforms for Fortune 500 clients. Acquired by [Uniphore](https://uniphore.com){:target="_blank" rel="noopener noreferrer"}.
+3. **Forward Deployed Engineer (2017-2019)** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led discovery, POCs, and post-sales implementations for ActionIQ’s first enterprise customers. 
+4. **Software Engineer (2015-2017)** at [SyncOnSet](https://www.synconset.com){:target="_blank" rel="noopener noreferrer"} → Built Emmy-winning software. Later acquired by [Entertainment Partners](https://www.ep.com){:target="_blank" rel="noopener noreferrer"}.
+5. **Founding team member (2012-2014)** of [RosieApp](https://www.rosieapp.com){:target="_blank" rel="noopener noreferrer"} → Built iOS app for local grocery delivery, landing first customer. Later acquired by [Instacart](https://www.instacart.com){:target="_blank" rel="noopener noreferrer"}.
+
+## Projects and Exploration
+### 2016
+- Completed DeepLearning.ai's [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai){:target="_blank"}, [MCP short course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/){:target="_blank"}, and [Agent Skills short course](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/){:target="_blank"}
+
+### 2025
+- [Stevens](https://heystevens.com){:target="_blank"} – Still building this for fun; currently focused on adding evals and improving quality after completing DeepLearning.AI's "Agentic AI" course.
+- [ThirdSpace ](/startup/thirdspaces-we-found-a-problem-but-no-business/){:target="_blank"} – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
+- [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
+- [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank"} - Format your HackerNews post with ease.
+- [LowLow](https://lowlow.bot){:target="_blank"} - Price tracking that respects your privacy.
 
 ## Find me on
 
