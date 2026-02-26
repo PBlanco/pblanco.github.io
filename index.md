@@ -21,7 +21,7 @@ title: Home
 5. **Founding team member (2012-2014)** of [RosieApp](https://www.rosieapp.com){:target="_blank" rel="noopener noreferrer"} → Built iOS app for local grocery delivery, landing first customer. Later acquired by [Instacart](https://www.instacart.com){:target="_blank" rel="noopener noreferrer"}.
 
 ## Projects and Exploration
-### 2016
+### 2026
 - Completed DeepLearning.ai's [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai){:target="_blank"}, [MCP short course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/){:target="_blank"}, and [Agent Skills short course](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/){:target="_blank"}
 
 ### 2025
