@@ -47,3 +47,5 @@ When you discover something valuable for future sessions — architectural decis
 Don't wait to be asked. Don't wait for session end.
 
 Keep entries short: date, what, why.
+
+- 2026-02-28: Removed Datadog RUM snippet from `_includes/analytics.html`; Datadog is no longer a vendor, so production analytics should only include active providers.
