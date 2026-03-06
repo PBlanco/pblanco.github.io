@@ -7,7 +7,7 @@ title: Home
     <span class="wave">👋</span> Hi, I'm <span class="intro-name">Peter Blanco</span>
   </div>
   <div class="intro-desc">
-    Open to Product Manager roles in NYC or SF (Series C to public).<br/>Also available for short-term consulting on product direction and customer data platforms.
+    Open to Product Manager roles in NYC or SF across AI, data, and workflow products.<br/>Also available for short-term consulting on product direction and customer data platforms.
   </div>
 </div>
 
