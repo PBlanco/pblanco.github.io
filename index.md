@@ -6,8 +6,18 @@ title: Home
   <div class="intro-greeting">
     <span class="wave">👋</span> Hi, I'm <span class="intro-name">Peter Blanco</span>
   </div>
-  <div class="intro-desc">
-    Open to Product Manager roles in NYC or SF across AI, data, and workflow products.<br/>Also available for short-term consulting on product direction and customer data platforms.
+  <div class="intro-copy">
+    <p class="intro-summary">
+      Product manager focused on AI, data, and workflow products.
+    </p>
+    <div class="intro-meta">
+      <p><span class="intro-label">Open to</span> PM roles in NYC or SF</p>
+      <p><span class="intro-label">Consulting</span> Short-term work on product direction and customer data platforms</p>
+    </div>
+    <div class="intro-actions">
+      <a href="mailto:{{ site.email }}">Email</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
   </div>
 </div>
 

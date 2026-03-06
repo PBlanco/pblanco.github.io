@@ -46,7 +46,7 @@ When you discover something valuable for future sessions — architectural decis
 
 Don't wait to be asked. Don't wait for session end.
 
-Keep entries short: date, what, why.
+Keep entries short: date, what, why. If multiple things change on the same day, keep them on one line.
 
 - 2026-02-28: Removed Datadog RUM snippet from `_includes/analytics.html`; Datadog is no longer a vendor, so production analytics should only include active providers.
-- 2026-03-06: Homepage recruiting-positioning copy lives in `index.md` intro; update that line for audience/role targeting changes.
+- 2026-03-06: Homepage recruiting-positioning copy lives in `index.md` intro; intro layout uses `intro-summary` and `intro-meta` in `index.md` with matching styles in `assets/css/styles.css`; hero CTAs use `site.email` and `site.linkedin_username` from `_config.yml`; keep hero actions text-link simple to preserve the markdown-doc feel.

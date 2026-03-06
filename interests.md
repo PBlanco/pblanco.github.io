@@ -10,5 +10,5 @@ title: Interests
 
 # Intellectual 
 - **YouTube**: I enjoy educational channels like [Smarter Every Day](https://www.youtube.com/@SmarterEveryDay){:target="_blank" rel="noopener noreferrer"}, [Real Engineering](https://www.youtube.com/@realengineering){:target="_blank" rel="noopener noreferrer"}, [Computerphile](https://www.youtube.com/@Computerphile){:target="_blank" rel="noopener noreferrer"}, and [The B1M](https://www.youtube.com/@TheB1M){:target="_blank" rel="noopener noreferrer"}.
-- **Reading**: My interests span Sci-Fi, Fantasy, Biographies, History, and Psychology. Still grinding through [*The Power Broker*](https://a.co/d/f9QZKLH). All tracked on [Goodreads](https://www.goodreads.com/user/show/66203612-peter){:target="_blank" rel="noopener noreferrer"}. 
+- **Reading**: My interests span Sci-Fi, Fantasy, Biographies, History, and Psychology. All tracked on [Goodreads](https://www.goodreads.com/user/show/66203612-peter){:target="_blank" rel="noopener noreferrer"}. 
 -  **Languages**: Lifelong Spanish learner.

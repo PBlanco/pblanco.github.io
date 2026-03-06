@@ -63,6 +63,11 @@ main ol > li > p {
   line-height: 1.5;
 }
 
+main ul li,
+main ol li {
+  margin-bottom: 0.55rem;
+}
+
 main strong {
   color: var(--text-primary);
   font-weight: 600;
@@ -374,8 +379,9 @@ tr:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0 2rem 0;
+  margin: 2.5rem 0 3rem 0;
 }
+
 .intro-greeting {
   font-size: 2rem;
   font-weight: 700;
@@ -383,16 +389,72 @@ tr:hover {
   align-items: center;
   gap: 0.5rem;
 }
+
 .intro-name {
   color: #2563eb;
 }
-.intro-desc {
-  margin-top: 1.2rem;
-  font-size: 1.2rem;
-  max-width: 600px;
-  text-align: center;
-  color: #444;
+
+.intro-copy {
+  width: min(100%, 40rem);
+  margin-top: 1.25rem;
 }
+
+.intro-summary {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  text-align: left;
+  color: var(--text-primary);
+}
+
+.intro-meta {
+  margin-top: 0.95rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(229, 231, 235, 0.7);
+}
+
+.intro-meta p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: var(--text-secondary);
+  display: grid;
+  grid-template-columns: 7.25rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.intro-meta p + p {
+  margin-top: 0.45rem;
+}
+
+.intro-label {
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.intro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.95rem;
+  font-size: 0.98rem;
+}
+
+.intro-actions a {
+  color: var(--text-primary);
+  font-weight: 500;
+  background: none;
+}
+
+.intro-actions a:hover {
+  color: var(--primary);
+}
+
 .intro-highlight {
   background: #e0e7ff;
   color: #1e40af;
@@ -404,10 +466,10 @@ tr:hover {
   color: #888;
 }
 .intro-img {
-  width: 80%;
+  width: 100%;
   display: block;
-  margin: 0 auto 2rem auto;
-  max-width: 350px;
+  margin: 0 auto 2.5rem auto;
+  max-width: 300px;
   border-radius: 1rem;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
@@ -417,6 +479,29 @@ tr:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 2rem 0 2.5rem 0;
+  }
+
+  .intro-copy {
+    margin-top: 1rem;
+  }
+
+  .intro-summary {
+    font-size: 1.1rem;
+  }
+
+  .intro-meta p {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .intro-label {
+    font-size: 0.76rem;
   }
 }
 
