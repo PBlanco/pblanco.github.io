@@ -440,15 +440,25 @@ tr:hover {
 .intro-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
   margin-top: 0.95rem;
   font-size: 0.98rem;
 }
 
 .intro-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
   color: var(--text-primary);
   font-weight: 500;
   background: none;
+}
+
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  flex: 0 0 auto;
 }
 
 .intro-actions a:hover {

@@ -15,7 +15,18 @@ title: Home
       <p><span class="intro-label">Consulting</span> Short-term work on product direction and customer data platforms</p>
     </div>
     <div class="intro-actions">
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="/assets/icons/square-linkedin-brands-solid-full.svg" alt="" />
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="/assets/icons/square-github-brands-solid-full.svg" alt="" />
+        <span>GitHub</span>
+      </a>
+      <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">
+        <img class="social-icon" src="/assets/icons/square-x-twitter-brands-solid-full.svg" alt="" />
+        <span>X</span>
+      </a>
     </div>
   </div>
 </div>
@@ -39,9 +50,3 @@ title: Home
 - [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank"} - An open-source safe way to share files.
 - [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank"} - Format your HackerNews post with ease.
 - [LowLow](https://lowlow.bot){:target="_blank"} - Price tracking that respects your privacy.
-
-## Find me on
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}){:target="_blank" rel="noopener noreferrer"}
-- 👨🏻‍💻 [GitHub](https://github.com/{{ site.github_username }}){:target="_blank" rel="noopener noreferrer"}
-- 🐦 [X](https://x.com/{{ site.twitter_username }}){:target="_blank" rel="noopener noreferrer"}
