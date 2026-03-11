@@ -15,7 +15,6 @@ title: Home
       <p><span class="intro-label">Consulting</span> Short-term work on product direction and customer data platforms</p>
     </div>
     <div class="intro-actions">
-      <a href="mailto:{{ site.email }}">Email</a>
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>

@@ -2,7 +2,5 @@
   link: /
 - name: Interests
   link: /interests.html
-- name: Startups
-  link: /startups.html
-- name: All Posts
+- name: Blog
   link: /blog.html
