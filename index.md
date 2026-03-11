@@ -11,8 +11,9 @@ title: Home
       Product manager focused on AI, data, and workflow products.
     </p>
     <div class="intro-meta">
-      <p><span class="intro-label">Open to</span> PM roles in NYC or SF</p>
-      <p><span class="intro-label">Consulting</span> Short-term work on product direction and customer data platforms</p>
+      <div class="intro-meta-title">Open to</div>
+      <p><span class="intro-label">Full-time</span> PM roles in NYC or SF</p>
+      <p><span class="intro-label">Consulting</span> AI agent development and product direction</p>
     </div>
     <div class="intro-actions">
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">

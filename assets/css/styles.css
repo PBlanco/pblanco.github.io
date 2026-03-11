@@ -413,6 +413,15 @@ tr:hover {
   border-top: 1px solid rgba(229, 231, 235, 0.7);
 }
 
+.intro-meta-title {
+  margin-bottom: 0.45rem;
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .intro-meta p {
   margin: 0;
   font-size: 1rem;
@@ -431,10 +440,9 @@ tr:hover {
 
 .intro-label {
   color: var(--text-primary);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .intro-actions {
