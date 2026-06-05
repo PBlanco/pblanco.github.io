@@ -1,7 +1,7 @@
 # Site settings
 title: Peter Blanco
 description: >- # this means to ignore newlines until "baseurl:"
-  Product Manager focused on AI and Big Data. Senior PM at ActionIQ/Uniphore.
+  Product manager focused on AI, data, and workflow products.
   Writing about tech, travel, and product management.
 baseurl: ""
 url: "https://www.peterblanco.com"
@@ -26,6 +26,7 @@ social:
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 

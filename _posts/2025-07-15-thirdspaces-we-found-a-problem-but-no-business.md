@@ -50,7 +50,7 @@ We found a problem. But:
 * **No clear early adopters.** Most venues avoid early-stage tools. We were not able to find a venue to co-develop the product with from day one.
 
 ### So, what did we learn?
-First, **marketplaces only work when both sides care.** Consumers want speed in booking, simplicity in picking packages, and fairness in pricing. They’d happily use ThirdSpaces. But, venues aren’t incentivized to change and digitize, thus we don’t have the data for the consumers. Jumpstarting this marketplace is difficult. We respect how PerfectVenue is directly taking on Tripleseat’s CRM business to get the restaurants on their platform before they, one day, make their [shift to instant booking](http://book.perfectvenue.com){:target="_blank"}.
+First, **marketplaces only work when both sides care.** Consumers want speed in booking, simplicity in picking packages, and fairness in pricing. They’d happily use ThirdSpaces. But, venues aren’t incentivized to change and digitize, thus we don’t have the data for the consumers. Jumpstarting this marketplace is difficult. We respect how PerfectVenue is directly taking on Tripleseat’s CRM business to get the restaurants on their platform before they, one day, make their [shift to instant booking](http://book.perfectvenue.com){:target="_blank" rel="noopener noreferrer"}.
 
 Second, **move fast to learn fast**. Want to learn about a competitor? Request a demo and message them on LinkedIn. Want to talk to users? Reach out directly, show up where they are, or ask someone for an intro. Need a landing page? Pick a domain and launch it. Keep making forward progress. You’ll learn more and waste less time thinking.
 
