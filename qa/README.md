@@ -1,6 +1,6 @@
 # Website cleanup: visual QA
 
-Tested PR #9 at commit `27b4b086132b0a3184872e4c01d64f93e98d25c4` on 2026-11-08. Screenshots and recordings show the local production Jekyll build. The before screenshots use the unchanged main branch (`e411984`). This evidence branch is separate from the production PR and is not intended to be merged.
+Tested PR #9 at commit `c244941f7778e564de51ad40c061bf6e69c07998` on 2026-11-08. Screenshots and recordings show the local production Jekyll build. The before screenshots use the unchanged main branch (`e411984`). This evidence branch is separate from the production PR and is not intended to be merged.
 
 ## Review the result
 
@@ -13,11 +13,14 @@ Tested PR #9 at commit `27b4b086132b0a3184872e4c01d64f93e98d25c4` on 2026-11-08.
 | --- | --- | --- | --- |
 | [Screenshot](after-360.png) | [Screenshot](after-390.png) | [Screenshot](after-768.png) | [Screenshot](after-1440.png) |
 
-Walkthrough recordings: [phone](walkthrough-390.webm) · [desktop](walkthrough-1440.webm). Each shows Home, scrolling, opening Interests, and returning Home. Download the WebM if GitHub does not preview it.
+Walkthrough recordings: [phone](walkthrough-390.mp4) · [desktop](walkthrough-1440.mp4). Each shows Home, scrolling, opening Interests, and returning Home. Download the MP4 if GitHub does not preview it.
+
+The “Things I’ve built” section now presents the formatter and LowLow as illustrated cards, side by side on wider screens and stacked below 560px.
 
 ## What passed
 
 - Production Jekyll build with the locked dependencies under Ruby 3.3.
+- Both cards have visible keyboard focus and sequential Tab navigation; cards stack on phones and align in two columns on tablet/desktop.
 - All four viewport sizes: homepage image loads, no horizontal overflow, and no uncaught page JavaScript errors.
 - Home → Interests → Home navigation at all four sizes.
 - Homepage says “Product manager at Coast,” and retains Coast, social, Hacker News Post Formatter, and LowLow links with the expected destinations.

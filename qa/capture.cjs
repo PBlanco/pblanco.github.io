@@ -4,7 +4,7 @@ const out = '/workspace/peterblanco-qa';
 const sizes = [{width:360,height:800},{width:390,height:844},{width:768,height:1024},{width:1440,height:900}];
 (async () => {
   const browser = await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
-  const results = {commit:'27b4b086132b0a3184872e4c01d64f93e98d25c4',browser:browser.version(),viewports:[],routes:[]};
+  const results = {commit:'c244941f7778e564de51ad40c061bf6e69c07998',browser:browser.version(),viewports:[],routes:[]};
   for (const viewport of sizes) {
     const page = await browser.newPage({viewport});
     const errors=[]; page.on('pageerror', e=>errors.push(e.message));
@@ -12,6 +12,16 @@ const sizes = [{width:360,height:800},{width:390,height:844},{width:768,height:1
     await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))));
     const measurements=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,brokenImages:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src),links:[...document.querySelectorAll('main a')].map(a=>({text:a.textContent.trim(),href:a.href}))}));
     if(measurements.overflow||measurements.brokenImages.length)throw Error('Layout/image failure');
+    const cards=page.locator('.build-card');
+    if(await cards.count()!==2)throw Error('Expected two cards');
+    const boxes=await cards.evaluateAll(nodes=>nodes.map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height}}));
+    if(viewport.width<=560 ? boxes[1].y<=boxes[0].y : boxes[1].y!==boxes[0].y)throw Error('Card layout mismatch');
+    await cards.first().focus();
+    const focus=await cards.first().evaluate(n=>({active:document.activeElement===n,outline:getComputedStyle(n).outlineStyle}));
+    if(!focus.active||focus.outline==='none')throw Error('Keyboard focus missing');
+    await page.keyboard.press('Tab');
+    if(!await cards.nth(1).evaluate(n=>document.activeElement===n))throw Error('Card tab order mismatch');
+    await cards.nth(1).evaluate(n=>n.blur());await page.evaluate(()=>scrollTo(0,0));
     await page.screenshot({path:`${out}/after-${viewport.width}.png`,fullPage:true});
     await page.getByRole('link',{name:'Interests',exact:true}).click();
     await page.waitForURL('**/interests.html');
