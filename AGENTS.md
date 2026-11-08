@@ -77,3 +77,7 @@ Keep entries short: date, what, why. If multiple things change on the same day, 
 - 2026-06-05: `AGENTS.md` now captures repo working principles and implementation notes so future agents reduce scope, delete stale paths, and verify with Jekyll before adding complexity.
 - 2026-06-05: Local `bundle exec jekyll build` can fail when the active shell uses macOS system Ruby `2.6.10`; `Gemfile.lock` specifies Bundler `2.7.2`, which requires Ruby `>= 3.2.0`, so use a newer Ruby environment before verifying builds.
 - 2026-06-05: `jekyll-seo-tag` already emits the canonical `<title>`; keep `_layouts/default.html` from adding a second manual title tag.
+
+- 2026-11-08: Homepage now leads with Product manager at Coast (coastpay.com); removed recruiting copy, career chronology, and retired projects. Keep Hacker News Post Formatter and LowLow. The prior availability guidance is superseded.
+- 2026-11-08: Removed all six public posts and empty blog/category indexes; travel guide copies are retained outside the public repository. GitHub Pages has no private-page access control; unlisted URLs are public. Historical Git commits still contain deleted content.
+- 2026-11-08: Exclude AGENTS.md, README.md, and conductor.json from Jekyll output so repository-only files are not served publicly.

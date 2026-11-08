@@ -1,8 +1,7 @@
 # Site settings
 title: Peter Blanco
 description: >- # this means to ignore newlines until "baseurl:"
-  Product manager focused on AI, data, and workflow products.
-  Writing about tech, travel, and product management.
+  Peter Blanco is a product manager at Coast.
 baseurl: ""
 url: "https://www.peterblanco.com"
 twitter_username: blancotech
@@ -49,3 +48,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .git
+  - AGENTS.md
+  - README.md
+  - conductor.json
