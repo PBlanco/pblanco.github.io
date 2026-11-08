@@ -1,0 +1,200 @@
+{
+  "commit": "27b4b086132b0a3184872e4c01d64f93e98d25c4",
+  "browser": "156.0.8078.79",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        {
+          "text": "Coast",
+          "href": "https://coastpay.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/peterblanco"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/pblanco"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/blancotech"
+        },
+        {
+          "text": "Hacker News Post Formatter",
+          "href": "https://hnpostformatter.blancotech.com/"
+        },
+        {
+          "text": "LowLow",
+          "href": "https://lowlow.bot/"
+        }
+      ],
+      "navigation": "Home → Interests → Home passed",
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        {
+          "text": "Coast",
+          "href": "https://coastpay.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/peterblanco"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/pblanco"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/blancotech"
+        },
+        {
+          "text": "Hacker News Post Formatter",
+          "href": "https://hnpostformatter.blancotech.com/"
+        },
+        {
+          "text": "LowLow",
+          "href": "https://lowlow.bot/"
+        }
+      ],
+      "navigation": "Home → Interests → Home passed",
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        {
+          "text": "Coast",
+          "href": "https://coastpay.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/peterblanco"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/pblanco"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/blancotech"
+        },
+        {
+          "text": "Hacker News Post Formatter",
+          "href": "https://hnpostformatter.blancotech.com/"
+        },
+        {
+          "text": "LowLow",
+          "href": "https://lowlow.bot/"
+        }
+      ],
+      "navigation": "Home → Interests → Home passed",
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        {
+          "text": "Coast",
+          "href": "https://coastpay.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/peterblanco"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/pblanco"
+        },
+        {
+          "text": "X",
+          "href": "https://x.com/blancotech"
+        },
+        {
+          "text": "Hacker News Post Formatter",
+          "href": "https://hnpostformatter.blancotech.com/"
+        },
+        {
+          "text": "LowLow",
+          "href": "https://lowlow.bot/"
+        }
+      ],
+      "navigation": "Home → Interests → Home passed",
+      "pageErrors": []
+    }
+  ],
+  "routes": [
+    {
+      "path": "/blog.html",
+      "status": 404
+    },
+    {
+      "path": "/startups.html",
+      "status": 404
+    },
+    {
+      "path": "/travel-guides.html",
+      "status": 404
+    },
+    {
+      "path": "/startup/why-i-shut-down-trailway/",
+      "status": 404
+    },
+    {
+      "path": "/startup/thirdspaces-we-found-a-problem-but-no-business/",
+      "status": 404
+    },
+    {
+      "path": "/startup/quiet-crisis-in-qa-more-code-same-old-problems/",
+      "status": 404
+    },
+    {
+      "path": "/cheap-blogging-with-jekyll/",
+      "status": 404
+    },
+    {
+      "path": "/travel-guides/acadia-travel-guide/",
+      "status": 404
+    },
+    {
+      "path": "/travel-guides/argentina-travel-guide/",
+      "status": 404
+    },
+    {
+      "path": "/AGENTS.md",
+      "status": 404
+    },
+    {
+      "path": "/README.md",
+      "status": 404
+    },
+    {
+      "path": "/conductor.json",
+      "status": 404
+    }
+  ]
+}
