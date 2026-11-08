@@ -28,10 +28,10 @@ layout: default
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
-## Things I’ve built
+## Selected work
 
 <div class="build-grid">
-  <a class="build-card" href="https://hnpostformatter.blancotech.com/" target="_blank" rel="noopener noreferrer">
+  <a class="build-card" href="https://hnpostformatter.com" target="_blank" rel="noopener noreferrer">
     <div class="build-art build-art-hn" aria-hidden="true">
       <div class="hn-preview">
         <div class="hn-preview-bar"><span>Y</span> Hacker News</div>
