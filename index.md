@@ -39,7 +39,7 @@ layout: default
       </div>
     </div>
     <div class="build-copy">
-      <h3>Hacker News Post Formatter <span aria-hidden="true">↗</span></h3>
+      <h3>Hacker News Post Formatter <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
       <p>A small tool for better-formatted posts.</p>
       <span class="build-cta">Try the formatter <span aria-hidden="true">→</span></span>
     </div>
@@ -51,7 +51,7 @@ layout: default
       </div>
     </div>
     <div class="build-copy">
-      <h3>LowLow <span aria-hidden="true">↗</span></h3>
+      <h3>LowLow <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
       <p>Price-drop alerts, without the noise.</p>
       <span class="build-cta">Meet LowLow <span aria-hidden="true">→</span></span>
     </div>
