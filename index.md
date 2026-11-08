@@ -28,6 +28,32 @@ layout: default
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
-## Side projects
-- [Hacker News Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank" rel="noopener noreferrer"} — Format posts for Hacker News.
-- [LowLow](https://lowlow.bot){:target="_blank" rel="noopener noreferrer"} — Price-drop alerts.
+## Things I’ve built
+
+<div class="build-grid">
+  <a class="build-card" href="https://hnpostformatter.blancotech.com/" target="_blank" rel="noopener noreferrer">
+    <div class="build-art build-art-hn" aria-hidden="true">
+      <div class="hn-preview">
+        <div class="hn-preview-bar"><span>Y</span> Hacker News</div>
+        <div class="hn-preview-copy"><strong>A little more readable.</strong><span>Turn a draft into a post.</span><i></i><i></i></div>
+      </div>
+    </div>
+    <div class="build-copy">
+      <h3>Hacker News Post Formatter <span aria-hidden="true">↗</span></h3>
+      <p>A small tool for better-formatted posts.</p>
+      <span class="build-cta">Try the formatter <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+  <a class="build-card" href="https://lowlow.bot" target="_blank" rel="noopener noreferrer">
+    <div class="build-art build-art-lowlow" aria-hidden="true">
+      <div class="price-preview"><span>Watching the price.</span><strong>Waiting for the drop.</strong>
+        <svg viewBox="0 0 260 70" fill="none"><path d="M2 12H58V27H118V39H180V60H248" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="248" cy="60" r="5" fill="currentColor"/></svg>
+      </div>
+    </div>
+    <div class="build-copy">
+      <h3>LowLow <span aria-hidden="true">↗</span></h3>
+      <p>Price-drop alerts, without the noise.</p>
+      <span class="build-cta">Meet LowLow <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+</div>

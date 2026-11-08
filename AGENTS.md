@@ -81,3 +81,4 @@ Keep entries short: date, what, why. If multiple things change on the same day, 
 - 2026-11-08: Homepage now leads with Product manager at Coast (coastpay.com); removed recruiting copy, career chronology, and retired projects. Keep Hacker News Post Formatter and LowLow. The prior availability guidance is superseded.
 - 2026-11-08: Removed all six public posts and empty blog/category indexes; travel guide copies are retained outside the public repository. GitHub Pages has no private-page access control; unlisted URLs are public. Historical Git commits still contain deleted content.
 - 2026-11-08: Exclude AGENTS.md, README.md, and conductor.json from Jekyll output so repository-only files are not served publicly.
+- 2026-11-08: The homepage’s “Things I’ve built” uses two responsive linked cards with decorative HTML/SVG illustrations; keep illustrations aria-hidden and preserve visible keyboard focus. Cards stack below 560px.
