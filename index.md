@@ -7,13 +7,8 @@ layout: default
   </div>
   <div class="intro-copy">
     <p class="intro-summary">
-      Product manager focused on AI, data, and workflow products.
+      Product manager at <a href="https://coastpay.com" target="_blank" rel="noopener noreferrer">Coast</a>.
     </p>
-    <div class="intro-meta">
-      <div class="intro-meta-title">Open to</div>
-      <p><span class="intro-label">Full-time</span> PM roles in NYC or SF</p>
-      <p><span class="intro-label">Consulting</span> AI agent development and product direction</p>
-    </div>
     <div class="intro-actions">
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
         <img class="social-icon" src="/assets/icons/square-linkedin-brands-solid-full.svg" alt="" />
@@ -33,20 +28,32 @@ layout: default
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
-## Previously
-1. **Founder / Antler Founder-in-Residence (Fall 2025)** building [Trailway](https://www.trailway.ai){:target="_blank" rel="noopener noreferrer"} → Built tools to help PMs and designers confirm what’s built matches what’s intended, including the [Trailway Chrome Extension](https://chromewebstore.google.com/detail/dnecicegfbfoiipbiniljinalklfeaak){:target="_blank" rel="noopener noreferrer"}. Wound down the company; [read the postmortem &rarr;](/startup/why-i-shut-down-trailway/).
-2. **Product (2019-2025)** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led product strategy for AI, Analytics, and Data Platforms for Fortune 500 clients. Acquired by [Uniphore](https://uniphore.com){:target="_blank" rel="noopener noreferrer"}.
-3. **Forward Deployed Engineer (2017-2019)** at [ActionIQ](https://actioniq.com){:target="_blank" rel="noopener noreferrer"} → Led discovery, POCs, and post-sales implementations for ActionIQ’s first enterprise customers. 
-4. **Software Engineer (2015-2017)** at [SyncOnSet](https://www.synconset.com){:target="_blank" rel="noopener noreferrer"} → Built Emmy-winning software. Later acquired by [Entertainment Partners](https://www.ep.com){:target="_blank" rel="noopener noreferrer"}.
-5. **Founding team member (2012-2014)** of [RosieApp](https://www.rosieapp.com){:target="_blank" rel="noopener noreferrer"} → Built iOS app for local grocery delivery, landing first customer. Later acquired by [Instacart](https://www.instacart.com){:target="_blank" rel="noopener noreferrer"}.
+## Things I’ve built
 
-## Projects and Exploration
-### 2026
-- Completed DeepLearning.ai's [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai){:target="_blank" rel="noopener noreferrer"}, [MCP short course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/){:target="_blank" rel="noopener noreferrer"}, and [Agent Skills short course](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/){:target="_blank" rel="noopener noreferrer"}
-
-### 2025
-- [Stevens](https://heystevens.com){:target="_blank" rel="noopener noreferrer"} – Still building this for fun; currently focused on adding evals and improving quality after completing DeepLearning.AI's "Agentic AI" course.
-- [ThirdSpace](/startup/thirdspaces-we-found-a-problem-but-no-business/) – (no longer active) Discover, book, and pay in minutes for private bar events in NYC. [Read the postmortem &rarr;](/startup/thirdspaces-we-found-a-problem-but-no-business/)
-- [SafeSend](https://github.com/PBlanco/SafeSend){:target="_blank" rel="noopener noreferrer"} - An open-source safe way to share files.
-- [HackerNews Post Formatter](https://hnpostformatter.blancotech.com/){:target="_blank" rel="noopener noreferrer"} - Format your HackerNews post with ease.
-- [LowLow](https://lowlow.bot){:target="_blank" rel="noopener noreferrer"} - Price tracking that respects your privacy.
+<div class="build-grid">
+  <a class="build-card" href="https://hnpostformatter.blancotech.com/" target="_blank" rel="noopener noreferrer">
+    <div class="build-art build-art-hn" aria-hidden="true">
+      <div class="hn-preview">
+        <div class="hn-preview-bar"><span>Y</span> Hacker News</div>
+        <div class="hn-preview-copy"><strong>A little more readable.</strong><span>Turn a draft into a post.</span><i></i><i></i></div>
+      </div>
+    </div>
+    <div class="build-copy">
+      <h3>Hacker News Post Formatter <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+      <p>A small tool for better-formatted posts.</p>
+      <span class="build-cta">Try the formatter <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+  <a class="build-card" href="https://lowlow.bot" target="_blank" rel="noopener noreferrer">
+    <div class="build-art build-art-lowlow" aria-hidden="true">
+      <div class="price-preview"><span>Watching the price.</span><strong>Waiting for the drop.</strong>
+        <svg viewBox="0 0 260 70" fill="none"><path d="M2 12H58V27H118V39H180V60H248" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="248" cy="60" r="5" fill="currentColor"/></svg>
+      </div>
+    </div>
+    <div class="build-copy">
+      <h3>LowLow <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4h8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+      <p>Price-drop alerts, without the noise.</p>
+      <span class="build-cta">Meet LowLow <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+</div>
