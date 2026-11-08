@@ -28,7 +28,7 @@ layout: default
 
 ![Peter Blanco - Product Manager and Tech Professional](/assets/home.jpg){: .intro-img }
 
-## Selected work
+## Experiments
 
 <div class="build-grid">
   <a class="build-card" href="https://hnpostformatter.com" target="_blank" rel="noopener noreferrer">
